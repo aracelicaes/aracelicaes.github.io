@@ -1,0 +1,18 @@
+    body {
+      font-size: 16px;
+      font-family: 'Roboto Condensed', sans-serif;
+      color: black;
+    }
+  
+    header {
+      text-align: center;
+      background-color: #4812D5;
+      padding: .5rem;
+      color: white;
+
+    }
+  
+    header > img{
+    width: 25%;
+    display: inline-block;
+    }
