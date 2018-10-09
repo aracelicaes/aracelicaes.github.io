@@ -1,5 +1,5 @@
     body {
-      font-size: 16px;
+      font-size: 18px;
       font-family: 'Roboto Condensed', sans-serif;
       color: black;
     }
@@ -8,11 +8,44 @@
       text-align: center;
       background-color: #4812D5;
       padding: .5rem;
-      color: white;
+      color: whitesmoke;
 
     }
   
     header > img{
-    width: 25%;
-    display: inline-block;
+      width: 150px;
+      height: auto;
+      vertical-align: middle;
     }
+
+    .headertext {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 1rem;
+    }
+
+    .headertext h1 {
+      font-size: 3rem;
+    }
+
+    .subheading {
+      font-size: 1.1rem;
+      color: white;
+      font-style: italic;
+    }
+
+    .currentConditions {
+      display: inline-block;
+      padding: 1rem;
+      vertical-align: middle;
+      color: black;
+      background-color: whitesmoke; 
+      border: 1pt solid darkblue;
+      font-size: 1rem;
+    }
+
+    .currentConditions img {
+      width: 90px;
+      height: auto;
+    }
+
