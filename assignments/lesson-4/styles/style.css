@@ -1,5 +1,5 @@
     body {
-      font-size: 18px;
+      font-size: 16px;
       font-family: 'Roboto Condensed', sans-serif;
       color: black;
     }
@@ -13,7 +13,7 @@
     }
   
     header > img{
-      width: 150px;
+      width: 100px;
       height: auto;
       vertical-align: middle;
     }
@@ -21,16 +21,16 @@
     .headertext {
       display: inline-block;
       vertical-align: middle;
-      padding: 1rem 2.5rem;
+      padding: 1rem 2rem;
     }
 
     .headertext h1 {
-      font-size: 3rem;
+      font-size: 2rem;
       margin: .5rem;
     }
 
     .subheading {
-      font-size: 1.1rem;
+      font-size: 1rem;
       color: white;
       font-style: italic;
     }
@@ -46,7 +46,7 @@
     }
 
     .currentConditions img {
-      width: 80px;
+      width: 60px;
       height: auto;
     }
 
@@ -62,12 +62,12 @@
 
     nav a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     }
 
     ul {
       margin: 0;
-      padding: 0 0 0 20rem;
+      padding: 0 0 0 10rem;
       border: 2pt solid darkblue;
       background-color: lightskyblue;
       
@@ -77,26 +77,13 @@
       background-color: whitesmoke;
       display: block;
       align-items: center;
-      padding: 0 10em 0 11rem;
       margin: 0;
     }
 
     section.banner > h2 {
       margin: 0;
-      padding: 2rem 34rem 2rem 34rem;
-      font-size: 2rem;
-    }
-
-    #figCaption {
-      display: block;
-      position: absolute;
-      left: 15%;
-      bottom: 15%;
-      background-color: lightskyblue;
-      color: black;
-      width: 15%;
-      padding: 1rem 0 2rem 2.5rem;
-      border: 2pt solid darkblue;
+      padding: 2% 45%;
+      font-size: 1.5rem;
     }
 
     figure.bannerfigure {
@@ -104,14 +91,32 @@
       float: left;
     }
 
+    .banner > img {
+      padding: 0 0 0 10%;
+      width: 80%;
+    }
+
+    #figCaption {
+      display: block;
+      position: absolute;
+      left: 15%;
+      bottom: .5rem;
+      right: 15%;
+      background-color: lightskyblue;
+      color: black;
+      width: 15%;
+      padding: 2%;
+      border: 2pt solid darkblue;
+    }
+
     section.forecast {
-      padding: 5% 40% 5% 40%;
+      padding: 5% 10% 5% 10%;
       margin: 0;
     }
 
     section.forecast > h2 {
       background-color: lightskyblue;
-      padding: 5%;
+      padding: 2% 0 2% 40%;
       border: 2pt solid darkblue;
       margin: 0;
     }
@@ -119,12 +124,13 @@
     #forecastDays {
       background-color: lightskyblue;
       display: block;
-      padding: 5% 10% 5% 10%;
+      padding: 2% 40%;
       border: 2pt solid darkblue;
       margin: 0;
     }
 
     article.prestonStory {
+      margin: 0 10%;
       border: 2pt solid darkblue;
       padding: 2rem;
     }
@@ -146,7 +152,7 @@
 
     footer {
       background-color: whitesmoke;
-      padding: 5% 11.5% 0 11.5%;
+      padding: 5% 10% 0 10%;
     }
 
     aside.content {
