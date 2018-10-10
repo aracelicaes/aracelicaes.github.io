@@ -28,54 +28,76 @@
 
   <nav>
     <ul>
-      <li>Home <a href="">Home</a>
+      <li><a href="">Home</a>
       </li>
-      <li>Preston <a href="">Preston</a>
+      <li><a href="">Preston</a>
       </li>
-      <li>Soda Springs <a href="">Soda Springs</a>
+      <li><a href="">Soda Springs</a>
       </li>
-      <li>Fish Haven<a href="">Fish Haven</a>
+      <li><a href="">Fish Haven</a>
       </li>
-      <li>Storm Center <a href="">Storm Center</a>
+      <li><a href="">Storm Center</a>
       </li>
-      <li>Gallery <a href="">Gallery</a>
+      <li><a href="">Gallery</a>
       </li>
     </ul>
   </nav>
 
   <main>
-    <h2>Preston</h2>
-    <section>
-      <h3>Weather Data</h3>
-      <p>39° Fahrenheit<br> Time zone Mountain (MST) (UTC-7)<br> Summer (DST) MDT (UTC-6)</p>
+    <section class="banner">
+      <h2>Preston</h2>
+      <figure class="bannerFigure"></figure>
+        <img src="images/prestonbanner1200.jpg" alt="Preston Banner">
+        <figcaption>
+        <h4>Weather Summmary</h4>
+        75° Fahrenheit
+        Time zone Mountain (MST) 
+        (UTC-7) Summer (DST)
+        MDT (UTC-6)</figcaption>
+      </figure>  
     </section>
 
-    <section>
-      <h3>10 Day Forecast</h3>
-      <img src="../../images/forecast.jpg" alt="10 Day Franklin Forecast" height="" width="">
-
-      <p>
-        Feb 8th: 39° Fahrenheit <br> Feb 9th: 28° Fahrenheit <br> Feb 10th: 20° Fahrenheit <br> Feb 11th: 30° Fahrenheit <br> Feb 12th: 24° Fahrenheit <br> Feb 13th: 25° Fahrenheit<br> Feb 14th: 31° Fahrenheit<br> Feb 15th: 33° Fahrenheit<br> Feb 16th: 36° Fahrenheit<br> Feb 17th: 38° Fahrenheit<br>
-      </p>
+    <section class="forecast">
+      <h2>5 Day Forecast</h2>
+       <p id="forecastDays">
+        Oct 9th: 75° Fahrenheit <br> Oct 10th: 78° Fahrenheit <br>
+        Oct 11th: 71° Fahrenheit <br> Oct 12th: 61° Fahrenheit <br>
+        Oct 13th: 56° Fahrenheit</p>
     </section>
 
-    <section>
-      <h3>"Rocks tell own stories"</h3>
-      <img src="../../images/rocks.jpg" alt="Rocks Tell Own Stories" height="400" width="350">
-
-      <p>
-        <a href="https://www.prestoncitizen.com/news/local/rocks-tell-own-stories/article_b6edefa0-0b9e-11e8-945b-c31cff0063d4.html">Rocks Tell Own Stories by CLAUDIA ERICKSON Citizen staff writer</a>
-      </p>
-    </section>
+    <article class="prestonStory">
+      <h2>Elementary school kids live their dream!</h2>
+         <p class="story">
+          Preston Elementary School Students were clear to go 
+          for their hiking field trip today! Kids have been excited 
+          for this trip since kindergarden! The weather has been changing 
+          too much lately for them to know if it would have been cancelled or not. 
+          With the cold snow in their way, playing in Zion's Park seemed impossible. 
+          The sun cleared a few days ago and had been melting the snow until tuesday 
+          night that the snow came back. The school was about to cancel the field trip. 
+          Fortunately, with WEATHERNOW they were able to get the info right away for 
+          today's weather and realized that it was going to be a beautiful day! Enjoy 
+          this memorable sunny bright day kids!
+        </p>
+        <img src="images/prestonchildren500.jpg" alt="Preston Kids">
+    </article>
   </main>
   
   <footer>
-    <adside>
-      <strong>WEATHERNOW</strong>
-    <br>123 Main St.<br> Preston, CT<br> 06365 <br>(999)999.9999<br>
+    <aside class= "content">
+    <img src="images/mapWeatherNow.JPG" alt="Map to Weather-Now Offices">
+    
+    <div class= "contact">
+      <h4>WEATHERNOW</h4>
+      <br>123 Main St.<br>
+      Preston, CT<br>
+      06365<br>
+      (999)999.9999<br>
       contactus@weathernow.com
-    </adside>
-    <p class="footer-bar">&copy;2018 All Rights Reserved | WEATHERNOW | <span id="currentdate">Current Date Placeholder</span></p>
+    </div>  
+    </aside>
+    <p class="footer-bar">&copy;2018 All Rights Reserved | WEATHERNOW | 
+      <span id="currentdate">Current Date Placeholder</span></p>
   </footer>
 </body>
 </html>
