@@ -1,0 +1,206 @@
+{
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+  }
+
+  header {
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 1rem;
+    color: white;
+
+  }
+
+  header > img{
+    width: 80px;
+    height: auto;
+    display: block;
+    position: absolute;
+    padding-top: 3rem;
+ }
+
+  .headertext {
+    display: block;
+    padding: 1rem 2rem 0 2rem;
+  }
+
+  .headertext h1 {
+    font-size: 2.5rem;
+  }
+
+  #motto {
+    font-size: 1rem;
+    color: white;
+    font-style: italic;
+    padding-left: 4rem;
+  }
+
+  .currentConditions {
+    display: none;
+  }
+
+  .currentConditions img {
+    display: none;
+  }
+
+  .currentConditions p {
+    display: none;
+  }
+
+  nav li {
+    padding: 0 1rem 0 1rem;
+    margin: 1rem;
+  }
+
+  nav a {
+  color: white;
+  font-size: 1rem;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 10rem;
+    border: 2pt solid darkblue;
+    background-color: lightskyblue;
+    
+  }
+
+  main {
+    background-color: whitesmoke;
+    display: block;
+    align-items: center;
+    margin: 0;
+  }
+
+  section.banner > h2 {
+    margin: 0;
+    padding: 2% 2% 3% 2%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  figure.bannerfigure {
+    position: relative;
+    float: left;
+  }
+
+  .banner > img {
+    padding: 2%;
+    width: 96%;
+  }
+
+  .weatherdetails {
+    display: block;
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+    right: 15%;
+    background-color: rgba(135, 206, 250, 0.473);
+    color: black;
+    width: 30%;
+    padding: 2%;
+    border: 2pt solid darkblue;
+  }
+
+  .weatherdetails > h4 {
+    margin: 2%; 
+    color: rgb(241, 236, 214); 
+  }
+
+  .label {
+    color: darkblue;
+    display: inline;
+    
+  }
+
+  .value {
+    color: blue;
+    display: inline;
+    
+  }
+
+  .forecast {
+    display: none;  
+    margin: 2%;  
+    padding: 5% 10%;
+    background-color: lightblue;
+  }
+
+  .forecast > h3 {
+    text-align: center;
+    padding: 2%;
+    margin: 0;
+  }
+
+  table {
+    padding-left: 5%;    
+  }
+  th {
+    background-color: whitesmoke;
+    border: 1pt solid darkblue;
+    margin: 0;
+  }
+
+  td {
+    padding: 2%;
+    border: 1pt solid darkblue;
+  }
+
+  article.prestonStory {
+    margin: 2%;
+    border: 2pt solid darkblue;
+    padding: 2rem;
+  }
+
+  article > h2 {
+    text-align: left;
+  }
+  .story {
+    text-align: justify;
+    display: block;
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 10%;
+  }
+
+  .prestonStory > img {
+    display: block;  
+    width: 100%;
+  }
+
+  footer {
+    background-color: whitesmoke;
+    padding: 5% 0;
+  }
+
+  aside.content {
+    padding: 2rem;
+    display: block;
+    background-color: lightskyblue;
+    color: whitesmoke;
+  }
+
+  .contact {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  aside > img {
+    width: 100%;
+    height: auto;
+  }
+
+  p.footer-bar {
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 0;
+  }
