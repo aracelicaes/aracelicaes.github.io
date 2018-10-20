@@ -5,7 +5,7 @@
   }
 
   header {
-    text-align: center;
+    text-align: left;
     background-color: lightskyblue;
     padding: 1rem;
     color: white;
@@ -18,34 +18,44 @@
     display: block;
     position: absolute;
     padding-top: 3rem;
+    margin-left: 5%;
  }
 
   .headertext {
     display: block;
-    padding: 1rem 2rem 0 2rem;
+    padding: 2% 2% 0 20%;
   }
 
   .headertext h1 {
+    left: 0;
     font-size: 2.5rem;
+    text-shadow: 2px 2px gray;
   }
 
   #motto {
     font-size: 1rem;
     color: white;
     font-style: italic;
-    padding-left: 4rem;
+    text-shadow: 2px 2px gray;
   }
 
   .currentConditions {
     display: none;
+    padding: .5rem;
+    vertical-align: middle;
+    color: black;
+    background-color: white; 
+    border: 1pt solid burlywood;
+    font-size: 1rem;
   }
 
   .currentConditions img {
-    display: none;
+    width: 60px;
+    height: auto;
   }
 
   .currentConditions p {
-    display: none;
+    margin: .2em;
   }
 
   nav li {
@@ -64,7 +74,7 @@
     padding: 0 0 0 10rem;
     border: 2pt solid darkblue;
     background-color: lightskyblue;
-    
+    text-shadow: 2px 2px gray;
   }
 
   main {
@@ -79,6 +89,7 @@
     padding: 2% 2% 3% 2%;
     text-align: center;
     font-size: 1.5rem;
+    text-shadow: 1px 1px gray;
   }
 
   figure.bannerfigure {
@@ -107,18 +118,18 @@
   .weatherdetails > h4 {
     margin: 2%; 
     color: rgb(241, 236, 214); 
+    text-shadow: 2px 2px gray;
   }
 
   .label {
-    color: darkblue;
     display: inline;
-    
-  }
+    color: darkblue;
+    text-shadow: 1px 1px gray;
+ }
 
   .value {
     color: blue;
     display: inline;
-    
   }
 
   .forecast {
@@ -168,6 +179,7 @@
   .prestonStory > img {
     display: block;  
     width: 100%;
+    box-shadow: 5px 5px 6px grey;
   }
 
   footer {
@@ -180,6 +192,7 @@
     display: block;
     background-color: lightskyblue;
     color: whitesmoke;
+    text-shadow: 2px 2px gray;
   }
 
   .contact {
@@ -187,6 +200,10 @@
     display: block;
     width: 100%;
     padding-bottom: 2rem;
+  }
+  
+  .contact > h3 {
+      margin: 0;
   }
 
   aside > img {
