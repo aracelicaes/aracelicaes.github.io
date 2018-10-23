@@ -108,7 +108,7 @@
   .weatherdetails {
     position: absolute;
     left: 2%;
-    bottom: 29%;
+    bottom: 15%;
     right: 15%;
     background-color: rgba(135, 206, 250, 0.473);
     color: black;
@@ -194,12 +194,11 @@
     padding: 2rem;
     display: block;
     background-color: lightskyblue;
-    color: whitesmoke;
-    text-shadow: 2px 2px gray;
+    color: black;
   }
 
   .contact {
-    text-align: center;
+    text-align: left;
     display: block;
     width: 100%;
     padding-bottom: 2rem;
@@ -210,6 +209,7 @@
   }
 
   aside > img {
+    padding-top: 5%;
     width: 100%;
     height: auto;
   }
@@ -219,11 +219,12 @@
     color: whitesmoke;
     text-align: center;
     margin-top: 0;
+    padding: 5%;
   }
 
   @media only screen and (max-width: 450px) {
   .weatherdetails {
     font-size: 77%;
-    bottom: 5%;
+    bottom: 12%;
   }
   }
