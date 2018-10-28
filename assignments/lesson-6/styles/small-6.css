@@ -59,7 +59,6 @@
 
   nav button {
     background-color: transparent;
-    border-color: none;
   }
   
   nav ul {
@@ -87,7 +86,7 @@
     text-shadow: 2px 2px gray;
   }
   nav ul li {
-    width: 2px 2px;
+    width: 2px;
     color: #EEEEEE;
     background-color: transparent;
   }
@@ -143,7 +142,6 @@
   }
 
   figure.bannerFigure {
-    position: relative;
     margin: 0;
     width: 96%;
   }
