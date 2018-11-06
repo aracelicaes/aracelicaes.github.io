@@ -6,12 +6,11 @@ body {
   }
   /*--------Table-------------*/
   table {
-    max-width: 0 auto;
     display: table;
     table-layout: fixed;
     font-family: Ubuntu, sans-serif;
     border-collapse: collapse;
-    margin: 0 auto;
+    margin: auto;
     box-shadow: 9px 9px 15px #628ca6;
   }
   
