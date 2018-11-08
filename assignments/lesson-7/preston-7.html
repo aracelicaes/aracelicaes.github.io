@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Weather Project Araceli Camarillo">
+<title>Weather-Now</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/small-7.css" rel="stylesheet">
+<link href="styles/large-7.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="clearfix">
+    <figure class="logo">
+      <img src="images/weatherlogodefault.png" alt="Weather Now Logo">
+    </figure>
+    <div class="headertext">
+        <h1>WEATHER-NOW</h1>
+        <div id="motto">"We don't let the weather catch you by surprise!"</div>
+    </div>
+    <div class="currentConditions"  >
+        <img src="images/sunny.png" alt="Current Condition Weather Icon">
+        <p>Sunny</p>    
+    </div>
+  </header>
+
+  <nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="#"> Home </a></li>
+      <li class="active"><a href="franklin-7.html">Preston</a></li>
+      <li><a href="#"> Soda Springs </a></li>
+      <li><a href="#"> Fish Haven </a></li>
+      <li><a href="#"> Storm Center </a></li>
+      <li class="active"><a href="gallery-7.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="banner">
+      <h2>The Town of Preston</h2>
+      <picture class="bannerfigure">
+        <source media="(min-width: 790px)" srcset="images/prestonbanner800.jpg">
+        <source media="(max-width: 650px)" srcset="images/prestonbanner500.jpg">  
+        <source media="(max-width: 456px)" srcset="images/prestonbanner200.jpg">
+        <img src="images/prestonbanner800.jpg" alt="Preston Banner">
+      </picture>
+       
+      <div class="weatherdetails">
+         <h4>WEATHER SUMMARY</h4>
+          <p class="label">Currently:</p>
+          <p class="value">Sunny</p>
+          <p class="label">Temperature:</p>
+          <p class="value" id="temp">76</p>
+          <p class="label">Humidity:</p>
+          <p class="value">69%</p>
+          <p class="label">Precipitation:</p>
+          <p class="value">0 inches</p>
+          <p class="label">Wind Speed:</p>
+          <p class="value" id="winds">5</p>
+          <p class="label">Wind Chill:</p>
+          <p class="value" id="windchill">Number</p>  
+      </div>
+    </section>
+
+    <section class="forecast">
+      <h3>High Temperature Forecast</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+              <th>Sun</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Forecast</th>
+              <td>89&deg;F</td>
+              <td>87&deg;F</td>
+              <td>78&deg;F</td>
+              <td>75&deg;F</td>
+              <td>72&deg;F</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+
+    <article class="prestonstory">
+      <h2>Elementary school kids live their dream!</h2>
+      <div id="author">By Jane Spears</div>
+      <picture class="prestonimg">
+          <source media="(max-width: 1200px)" srcset="images/prestonkids800.jpg">  
+          <source media="(max-width: 456px)" srcset="images/prestonkids500.jpg">
+          <img src="images/prestonkids500.jpg" alt="Preston Kids">
+        </picture>  
+      <p class="story">  
+          Preston Elementary School Students were clear to go 
+          for their hiking field trip today! Kids have been excited 
+          for this trip since kindergarden! The weather has been changing 
+          too much lately for them to know if it would have been cancelled or not. 
+          With the cold snow in their way, playing in Zion's Park seemed impossible. 
+          The sun cleared a few days ago and had been melting the snow until tuesday 
+          night that the snow came back. The school was about to cancel the field trip. 
+          Fortunately, with WEATHERNOW they were able to get the info right away for 
+          today's weather and realized that it was going to be a beautiful day! Enjoy 
+          this memorable sunny bright day kids! <a href="#">Continue Reading...</a>
+        </p>  
+    </article>
+  </main>
+  
+  <footer>
+    <aside class= "content">
+      <div class= "contact">
+        <h3>WEATHERNOW</h3>
+        <img src="images/location24.png" alt="WeatherNow Location">123 Main St.<br>
+        Preston, ID<br>
+        06365<br>
+        <img src="images/phone24.png" alt="WeatherNow Phone">(999)999.9999<br>
+        <img src="images/mail24.png" alt="WeatherNow email">contactus@weathernow.com
+        <br><br><br>
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook24.png" alt="WeatherNow Facebook"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="images/instagram24.png" alt="WeatherNow IG"></a>
+        <a href="https://youtube.com" target="_blank"><img src="images/youtube24.png" alt="WeatherNow Youtube"></a>
+        <a href="https://whatsapp.com" target="_blank"><img src="images/whatsapp24.png" alt="WeatherNow Whatsapp"></a>
+    </div> 
+    <picture class="prestonmap">
+        <source media="(max-width: 1200px)" srcset="images/mapweathernow.jpg">  
+        <source media="(max-width: 456px)" srcset="images/mapweathernow500.jpg">
+        <img src="images/mapweathernow500.jpg" alt="Map WeatherNow">
+    </picture>   
+    </aside>
+    
+    
+    <p class="footer-bar">&copy;2018 All Rights Reserved | WEATHERNOW | 
+      <span id="currentdate">Current Date Placeholder</span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+
+</body>
+</html>

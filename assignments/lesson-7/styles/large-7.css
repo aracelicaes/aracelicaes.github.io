@@ -1,0 +1,104 @@
+@media only screen and (min-width: 800px) {    
+ 
+  /*.headertext {
+    text-align: center;
+  }
+
+  h1 {
+    display: inline-block;
+    font-size: 3rem;
+    letter-spacing: 4px;
+    margin-top: 2%;
+  }
+
+  div#motto {
+    font-size: 1.3rem;
+  }*/
+
+  div.currentConditions {
+    display: inline-block;
+     padding: 2%;
+     margin-left: 15%;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  } 
+  
+  .bannerFigure > img {
+    margin: 0 2% 0 2%;
+  }
+/*
+  .weatherdetails {
+    width: 12%;
+    margin-left: 5%;
+  }
+*/
+  .forecast {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  article.prestonStory {
+    margin: 2%;
+  }
+
+
+   .prestonStory > img {
+    float: right;
+    width: 45%;
+  }
+
+  .story {
+    width: 50%;
+    font-size: 20px;
+  }
+
+ footer {
+  margin: 15% 2% 10% 2%;
+ }
+
+  
+  footer > img {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 45%;
+    padding: 0;
+  }
+
+  .content {
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+    font-size: 20px;
+  }
+
+  .footer-bar {
+    font-size: 20px;
+  }
+/*--------GALLERY-------*/
+.weatherGallery {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: 25% 25%;
+  align-items: center;
+  width: auto;
+  padding: 2%;
+  margin: 2%;
+  grid-gap: 10%;
+}
+    
+    
+
+
+  }
+
+
+
+    
