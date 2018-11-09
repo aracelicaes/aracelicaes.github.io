@@ -1,0 +1,134 @@
+@media only screen and (min-width: 800px) {    
+ 
+/*----------- HEADER-------*/
+.headertext {
+  width: 40%;
+}
+
+.headertext > h1 {
+  font-size: 3em;
+}
+
+header.logo {
+  width: 25%;
+}
+
+#motto {
+  font-size: larger;
+}
+.currentConditions {
+  padding: 1%;
+  color: black;
+  background-color: white; 
+  border: 1pt solid burlywood;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.currentConditions img {
+  width: 60px;
+}
+
+.currentConditions p {
+  align-self: center;
+}
+
+/*----------- NAV MENU-------*/
+nav button {
+  display: none;
+}
+
+nav ul.hide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+/*----------- MAIN -------*/
+/*----------- BANNER SECTION -------*/
+/*----------- WEATHER SUMMARY -------*/
+.weatherdetails {
+  margin-bottom: 5%;
+  margin-left: 7%;
+}
+
+/*----------- TABLE -------*/
+/*available with medium view and up*/
+ .forecast {
+   display: table;
+   width: 90%;
+   margin-top: 15%;
+   margin-bottom: 0;
+  } 
+
+  .forecast > h3 {
+    text-align: center;
+  }
+
+  .forecast > table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+  }
+
+  /*----------- ARTICLE -------*/
+  article.prestonstory {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .artheader {
+    width: 100%;
+  }
+  
+  .prestonimg {
+    order: 3;
+    width: 45%;
+  }
+
+  .prestonimg > img {
+     width: 100%;
+  }
+
+  .story {
+    margin-right: 5%;
+    width: 45%;
+  }
+
+  /*----------- FOOTER -------*/
+  .content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .contact {
+    margin-right: 10%;
+  }
+  .prestonmap {
+    margin-right: 15%;
+    margin-top: 2%;
+  }
+
+  p.footer-bar {
+    font-size: larger;
+  }
+
+
+  /*----------GALLERY---------*/
+  .weatherGallery {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 35% 35%;
+    grid-gap: 10%;
+  }
+
+/*----------STORM CENTER ---------*/
+  #thanks {
+    font-size: 3rem;
+  }
+}
+
+    

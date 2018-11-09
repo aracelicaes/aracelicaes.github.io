@@ -14,15 +14,17 @@
 
 <body>
   <header class="clearfix">
-    <figure class="logo">
-      <img src="images/weatherlogodefault.png" alt="Weather Now Logo">
-    </figure>
+    <picture class="logo">
+      <source media="(min-width: 500px)" srcset="images/weatherlogo200.png">  
+      <source media="(max-width: 456px)" srcset="images/weatherlogo100.png">
+      <img src="images/weatherlogo100.png" alt="WeatherNow Logo">
+    </picture>
     <div class="headertext">
         <h1>WEATHER-NOW</h1>
         <div id="motto">"We don't let the weather catch you by surprise!"</div>
     </div>
     <div class="currentConditions"  >
-        <img src="images/sunny.png" alt="Current Condition Weather Icon">
+        <img src="images/sunny64.png" alt="Current Condition Weather Icon">
         <p>Sunny</p>    
     </div>
   </header>
@@ -93,13 +95,15 @@
     </section>
 
     <article class="prestonstory">
+      <div class="artheader">
       <h2>Elementary school kids live their dream!</h2>
       <div id="author">By Jane Spears</div>
+    </div>
       <picture class="prestonimg">
-          <source media="(max-width: 1200px)" srcset="images/prestonkids800.jpg">  
-          <source media="(max-width: 456px)" srcset="images/prestonkids500.jpg">
+          <source media="(min-width: 500px)" srcset="images/prestonkids500.jpg">  
+          <source media="(min-width: 456px)" srcset="images/prestonkids200.jpg">
           <img src="images/prestonkids500.jpg" alt="Preston Kids">
-        </picture>  
+      </picture>  
       <p class="story">  
           Preston Elementary School Students were clear to go 
           for their hiking field trip today! Kids have been excited 
@@ -111,7 +115,7 @@
           Fortunately, with WEATHERNOW they were able to get the info right away for 
           today's weather and realized that it was going to be a beautiful day! Enjoy 
           this memorable sunny bright day kids! <a href="#">Continue Reading...</a>
-        </p>  
+        </p>
     </article>
   </main>
   
@@ -131,8 +135,8 @@
         <a href="https://whatsapp.com" target="_blank"><img src="images/whatsapp24.png" alt="WeatherNow Whatsapp"></a>
     </div> 
     <picture class="prestonmap">
-        <source media="(max-width: 1200px)" srcset="images/mapweathernow.jpg">  
-        <source media="(max-width: 456px)" srcset="images/mapweathernow500.jpg">
+        <source media="(min-width: 500px)" srcset="images/mapweathernow500.jpg">  
+        <source media="(min-width: 456px)" srcset="images/mapweathernow200.jpg">
         <img src="images/mapweathernow500.jpg" alt="Map WeatherNow">
     </picture>   
     </aside>

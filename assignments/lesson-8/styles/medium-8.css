@@ -1,0 +1,15 @@
+@media only screen and (min-width: 500px) {
+   
+ /*----------GALLERY---------*/
+ .weatherGallery {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 25% 25% 25%;
+    grid-gap: 10%;
+  }
+
+  /*----------STORM CENTER ---------*/
+  #thanks {
+    font-size: 1.5rem;
+  }
+}

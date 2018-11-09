@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Weather Project Araceli Camarillo">
+<title>Weather-Now</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/small-8.css" rel="stylesheet">
+<link href="styles/medium-8.css" rel="stylesheet">
+<link href="styles/large-8.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="clearfix">
+    <picture class="logo">
+      <source media="(min-width: 500px)" srcset="images/weatherlogo200.png">  
+      <source media="(max-width: 456px)" srcset="images/weatherlogo100.png">
+      <img src="images/weatherlogo100.png" alt="WeatherNow Logo">
+    </picture>
+    <div class="headertext">
+        <h1>WEATHER-NOW</h1>
+        <div id="motto">"We don't let the weather catch you by surprise!"</div>
+    </div>
+    <div class="currentConditions"  >
+        <img src="images/sunny64.png" alt="Current Condition Weather Icon">
+        <p>Sunny</p>    
+    </div>
+  </header>
+
+  <nav class="clearfix">
+        <button onclick="toggleNavMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="#"> Home </a></li>
+          <li class="active"><a href="preston-8.html">Preston</a></li>
+          <li><a href="#"> Soda Springs </a></li>
+          <li><a href="#"> Fish Haven </a></li>
+          <li class="active"><a href="stormcenter.html"> Storm Center </a></li>
+          <li class="active"><a href="gallery-8.html">Gallery</a></li>
+        </ul>
+      </nav>
+
+
+<main>
+        <h2>Gallery</h2>
+        
+        <div class="weatherGallery">
+            <figure>
+                <picture>
+                <source media="(min-width: 500px)" srcset="images/insnow500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/insnow200.jpg">
+                <img src="images/insnow500.jpg" alt="Snowy Place">
+                </picture>
+                <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</figcaption>
+            </figure>
+        
+            <figure>
+                <picture>
+                <source media="(min-width: 500px)" srcset="images/snowing500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/snowing200.jpg">
+                <img src="images/snowing500.jpg" alt="Snowing">
+                </picture>
+                <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</figcaption>
+            </figure>
+        
+            <figure>
+                <picture>
+                <source media="(min-width: 500px)" srcset="images/inrain500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/inrain200.jpg">
+                <img src="images/inrain500.jpg" alt="In Rain">
+                </picture>
+                <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</figcaption>
+            </figure>
+        
+            <figure>
+                <picture>
+                <source media="(min-width: 500px)" srcset="images/autumn500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/autumn200.jpg">
+                <img src="images/autumn500.jpg" alt="In Autumn">
+                </picture>
+                <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</figcaption>
+            </figure>
+        
+            <figure>
+                <picture>    
+                <source media="(min-width: 500px)" srcset="images/sunshine500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/sunshine200.jpg">
+                <img src="images/sunshine500.jpg" alt="Sunshine">
+                </picture>
+                <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</figcaption>
+            </figure>
+        
+            <figure>
+                <picture>
+                <source media="(min-width: 500px)" srcset="images/rain500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/rain200.jpg">
+                <img src="images/rain500.jpg" alt="Rain">
+                </picture>
+                <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</figcaption>
+            </figure>
+        </div>
+      </main>
+
+      <footer>
+        <aside class= "content">
+          <div class= "contact">
+            <h3>WEATHERNOW</h3>
+            <img src="images/location24.png" alt="WeatherNow Location">123 Main St.<br>
+            Preston, ID<br>
+            06365<br>
+            <img src="images/phone24.png" alt="WeatherNow Phone">(999)999.9999<br>
+            <img src="images/mail24.png" alt="WeatherNow email">contactus@weathernow.com
+            <br><br><br>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook24.png" alt="WeatherNow Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram24.png" alt="WeatherNow IG"></a>
+            <a href="https://youtube.com" target="_blank"><img src="images/youtube24.png" alt="WeatherNow Youtube"></a>
+            <a href="https://whatsapp.com" target="_blank"><img src="images/whatsapp24.png" alt="WeatherNow Whatsapp"></a>
+        </div> 
+        <picture class="prestonmap">
+            <source media="(min-width: 500px)" srcset="images/mapweathernow500.jpg">  
+            <source media="(min-width: 456px)" srcset="images/mapweathernow200.jpg">
+            <img src="images/mapweathernow500.jpg" alt="Map WeatherNow">
+        </picture>   
+        </aside>
+        
+        
+        <p class="footer-bar">&copy;2018 All Rights Reserved | WEATHERNOW | 
+          <span id="currentdate">Current Date Placeholder</span></p>
+      </footer>
+    
+      <script src="scripts/hamburger.js"></script>
+      <script src="scripts/currentdate.js"></script>
+    
+    </body>
+    </html>

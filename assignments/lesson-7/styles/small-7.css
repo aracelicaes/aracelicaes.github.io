@@ -18,6 +18,7 @@ header {
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8053fc', endColorstr='#78cced', GradientType=0 ); /* IE6-9 */
   
   padding-top: 20px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
   color: #EEEEEE;
@@ -27,10 +28,6 @@ header {
 
     .logo {
       width: 25%;
-    }
-
-    .logo > img {
-      width: 100%;
     }
 
     .headertext{
@@ -49,23 +46,7 @@ header {
 
 
   .currentConditions {
-    width: 27%;
-    padding: .5rem;
-    vertical-align: middle;
-    color: black;
-    background-color: white; 
-    border: 1pt solid burlywood;
-    font-size: 1rem;
     display: none;
-  }
-
-  .currentConditions img {
-    width: 60px;
-    height: auto;
-  }
-
-  .currentConditions p {
-    margin: .2em;
   }
 
 /*----------- NAV MENU-------*/
@@ -159,7 +140,7 @@ main, footer {
   .weatherdetails {
     background-color: rgba(135, 206, 250, 0.473);
     color: black;
-    width: 35%;
+    max-width: 164px;
     padding: 2%;
     border: 2pt solid darkblue;
     margin-bottom: -5%;
@@ -200,27 +181,27 @@ main, footer {
   .forecast {
     display: none;  
     margin-top: 5%;  
-    padding: 5% 10%;
-    background-color: lightblue;
+    padding: 5%;
+    background-color: rgb(86, 13, 116);
   }
 
   .forecast > h3 {
     align-self: center;
+    color: whitesmoke;
   }
 
   .forecast > table {
-    table-layout: fixed; 
     border-collapse: collapse;   
   }
   th {
     background-color: whitesmoke;
     border: 1.5pt solid darkblue;
-    margin: 0;
   }
 
   td {
     padding: 2%;
     border: 1pt solid darkblue;
+    background-color: lightblue;
   }
 
   /*----------- ARTICLE -------*/
@@ -233,7 +214,6 @@ main, footer {
   }
 
   .prestonimg > img {
-    width: 100%;
     box-shadow: 5px 5px 6px grey;
   }
 
@@ -275,12 +255,14 @@ main, footer {
 
 .weatherGallery {
   display: grid;
-  grid-template-columns: 85%;
-  grid-template-rows: 85%;
+  grid-auto-columns: auto;
   align-items: center;
   width: auto;
   padding: 2%;
-  margin-left: 15%;
+}
+
+main > h2 {
+  text-align: center;
 }
 
 .weatherGallery figure {

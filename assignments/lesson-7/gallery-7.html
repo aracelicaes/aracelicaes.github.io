@@ -9,20 +9,23 @@
 <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 <link href="styles/normalize.css" rel="stylesheet">
 <link href="styles/small-7.css" rel="stylesheet">
+<link href="styles/medium-7.css" rel="stylesheet">
 <link href="styles/large-7.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="clearfix">
-    <figure class="logo">
-      <img src="images/weatherlogodefault.png" alt="Weather Now Logo">
-    </figure>
+    <picture class="logo">
+      <source media="(min-width: 500px)" srcset="images/weatherlogo200.png">  
+      <source media="(max-width: 456px)" srcset="images/weatherlogo100.png">
+      <img src="images/weatherlogo100.png" alt="WeatherNow Logo">
+    </picture>
     <div class="headertext">
         <h1>WEATHER-NOW</h1>
         <div id="motto">"We don't let the weather catch you by surprise!"</div>
     </div>
     <div class="currentConditions"  >
-        <img src="images/sunny.png" alt="Current Condition Weather Icon">
+        <img src="images/sunny64.png" alt="Current Condition Weather Icon">
         <p>Sunny</p>    
     </div>
   </header>
@@ -31,7 +34,7 @@
     <button onclick="toggleNavMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
       <li><a href="#"> Home </a></li>
-      <li class="active"><a href="franklin-7.html">Preston</a></li>
+      <li class="active"><a href="preston-7.html">Preston</a></li>
       <li><a href="#"> Soda Springs </a></li>
       <li><a href="#"> Fish Haven </a></li>
       <li><a href="#"> Storm Center </a></li>
@@ -45,37 +48,49 @@
         
         <div class="weatherGallery">
             <figure>
-                <img src="images/insnow500.jpg" alt="insnowy" sizes="100vw" srcset="images/insnow200.jpg 300w, images/insnow500.jpg 500w">
+                <source media="(min-width: 500px)" srcset="images/insnow500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/insnow200.jpg">
+                <img src="images/insnow500.jpg" alt="Snowy Place">
                 <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/snowing500.jpg" alt="snowy" sizes="100vw" srcset="images/snowing200.jpg 300w, images/snowing500.jpg 500w">
+                <source media="(min-width: 500px)" srcset="images/snowing500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/snowing200.jpg">
+                <img src="images/snowing500.jpg" alt="Snowing">
                 <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/inrain500.jpg" alt="inrain" sizes="100vw" srcset="images/inrain200.jpg 300w, images/inrain500.jpg 500w">
+                <source media="(min-width: 500px)" srcset="images/inrain500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/inrain200.jpg">
+                <img src="images/inrain500.jpg" alt="In Rain">
                 <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/autumn500.jpg" alt="inautumn" sizes="100vw" srcset="images/autumn200.jpg 300w, images/autumn500.jpg 500w">
+                <source media="(min-width: 500px)" srcset="images/autumn500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/autumn200.jpg">
+                <img src="images/autumn500.jpg" alt="In Autumn">
                 <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/sunshine500.jpg" alt="sunshine" sizes="100vw" srcset="images/sunshine200.jpg 300w, images/sunshine500.jpg 500w">
+                <source media="(min-width: 500px)" srcset="images/sunshine500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/sunshine200.jpg">
+                <img src="images/sunshine500.jpg" alt="Sunshine">
                 <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.</figcaption>
             </figure>
         
             <figure>
-                <img src="images/rain500.jpg" alt="rain" sizes="100vw" srcset="images/rain200.jpg 300w, images/rain500.jpg 500w">
+                <source media="(min-width: 500px)" srcset="images/rain500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/rain200.jpg">
+                <img src="images/rain500.jpg" alt="Rain">
                 <figcaption>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.</figcaption>
             </figure>
@@ -83,33 +98,34 @@
       </main>
 
       <footer>
-            <aside class= "content">
-                
-            <div class= "contact">
-              <h3>WEATHERNOW</h3>
-              <img src="images/location24.png" alt="WeatherNow Location">123 Main St.<br>
-              Preston, ID<br>
-              06365<br>
-              <img src="images/phone24.png" alt="WeatherNow Phone">(999)999.9999<br>
-              <img src="images/mail24.png" alt="WeatherNow email">contactus@weathernow.com
-              <br><br><br>
-              <img src="images/facebook24.png" alt="WeatherNow Facebook">
-              <img src="images/instagram24.png" alt="WeatherNow IG">
-              <img src="images/youtube24.png" alt="WeatherNow Youtube">
-              <img src="images/whatsapp24.png" alt="WeatherNow Whatsapp">
-            </div>  
-            </aside>
-            <img src="images/mapWeatherNow.JPG" alt="Map to Weather-Now Offices">
-            
-            <p class="footer-bar">&copy;2018 All Rights Reserved | WEATHERNOW | 
-              <span id="currentdate">Current Date Placeholder</span></p>
-          </footer>
+        <aside class= "content">
+          <div class= "contact">
+            <h3>WEATHERNOW</h3>
+            <img src="images/location24.png" alt="WeatherNow Location">123 Main St.<br>
+            Preston, ID<br>
+            06365<br>
+            <img src="images/phone24.png" alt="WeatherNow Phone">(999)999.9999<br>
+            <img src="images/mail24.png" alt="WeatherNow email">contactus@weathernow.com
+            <br><br><br>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook24.png" alt="WeatherNow Facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram24.png" alt="WeatherNow IG"></a>
+            <a href="https://youtube.com" target="_blank"><img src="images/youtube24.png" alt="WeatherNow Youtube"></a>
+            <a href="https://whatsapp.com" target="_blank"><img src="images/whatsapp24.png" alt="WeatherNow Whatsapp"></a>
+        </div> 
+        <picture class="prestonmap">
+            <source media="(min-width: 500px)" srcset="images/mapweathernow500.jpg">  
+            <source media="(min-width: 456px)" srcset="images/mapweathernow200.jpg">
+            <img src="images/mapweathernow500.jpg" alt="Map WeatherNow">
+        </picture>   
+        </aside>
+        
+        
+        <p class="footer-bar">&copy;2018 All Rights Reserved | WEATHERNOW | 
+          <span id="currentdate">Current Date Placeholder</span></p>
+      </footer>
     
       <script src="scripts/hamburger.js"></script>
       <script src="scripts/currentdate.js"></script>
-      <script src="scripts/windchill.js"></script>
     
     </body>
-    
     </html>
-    
