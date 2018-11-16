@@ -1,0 +1,59 @@
+/* || general styles */
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Faster One', cursive;
+}
+
+/* header styles */
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: darkslateblue;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  color: blueviolet;
+}
+
+/* section styles */
+
+section article {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: 25%;
+}
+
+section p {
+  margin: 5px 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+section ul {
+  margin-top: 0;
+  color: limegreen;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -5px;
+  margin-bottom: 10px;
+  color: blueviolet;
+}

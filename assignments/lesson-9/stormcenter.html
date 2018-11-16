@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Weather Project Araceli Camarillo">
+<title>Weather-Now</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/small-9.css" rel="stylesheet">
+<link href="styles/large-9.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="clearfix">
+    <picture class="logo">
+      <source media="(min-width: 500px)" srcset="images/weatherlogo200.png">  
+      <source media="(max-width: 456px)" srcset="images/weatherlogo100.png">
+      <img src="images/weatherlogo100.png" alt="WeatherNow Logo">
+    </picture>
+    <div class="headertext">
+        <h1>WEATHER-NOW</h1>
+        <div id="motto">"We don't let the weather catch you by surprise!"</div>
+    </div>
+    <div class="currentConditions"  >
+        <img src="images/sunny64.png" alt="Current Condition Weather Icon">
+        <p>Sunny</p>    
+    </div>
+  </header>
+
+  <nav class="clearfix">
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="#"> Home </a></li>
+      <li class="active"><a href="preston-9.html">Preston</a></li>
+      <li><a href="#"> Soda Springs </a></li>
+      <li><a href="#"> Fish Haven </a></li>
+      <li class="active"><a href="stormcenter.html"> Storm Center </a></li>
+      <li class="active"><a href="gallery-9.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+<main>
+    <section class="banner">
+        <h2>Storm Center</h2>
+        <picture class="bannerfigure">
+            <source media="(min-width: 790px)" srcset="images/storm800.jpg">
+            <source media="(max-width: 650px)" srcset="images/storm500.jpg">  
+            <source media="(max-width: 456px)" srcset="images/storm200.jpg">
+            <img src="images/storm500.jpg" alt="Storm Center Banner">
+        </picture>
+    </section>
+
+    <div class="stormcenter">
+        <p>Storm Dangers? Fill out the Form below to provide us with all the details!</p>
+        <p><em>*</em>Indicates Required</p>
+    </div>
+
+    <div class="ablock">
+        <form action="thanks.html" method="get" target="_self">
+
+            <fieldset class="pInfo">
+                <legend>Personal Information:</legend>
+
+                <label>
+                    <span class="must"><em>*</em>Full Name:</span><br>
+                    <input type="text" name="fname" placeholder="ie. Jane Doe" pattern="[a-zA-Z]{.5}" required="" id="fullname"></label><br>
+
+                <label>
+                    <span class="must">
+                        <em>*</em>Email Address:</span><br>
+                    <input type="text" name="email" placeholder="ie. myemail@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                        required="" id="eaddress"></label><br>
+                <label>
+                    <span class="must">
+                        <em>*</em>Phone Number</span><br>
+                    <input type="tel" name="phone" placeholder="###-###-####" pattern="[0-9]{10}" required="" id="telephone">
+                </label><br>
+                <label>
+                    <span class="must">
+                        <em>*</em>Zip Code</span><br>
+                    <input type="number" name="zip" placeholder="ie. 55555" required="" id="zcode">
+                </label><br>
+            </fieldset>
+
+            <fieldset class="sInfo">
+                <legend>Storm Information:</legend>
+
+                <label>
+                    <span class="stormd">
+                        Storm Date:</span><br>
+                    <input type="date" name="sdate">
+                </label><br>
+
+                <label>
+                    <span class="storml">Storm Type: </span><br>
+                    <input list="stormlist" name="stormType" placeholder="ie.Hurricane">
+                    <datalist id="stormlist">
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Flash Flood"></option>
+                        <option value="Tornado"></option>
+                        <option value="Thunderstorm"></option>
+                    </datalist>
+                </label><br>
+
+                <label for="rating">
+                    <span class="severe">Storm Severity:</span><br>
+                    <span id="sevstorm">Please Rate the Storm Severity from 1-10 (Minor-Very High)</span>
+                    <input id="rating" name="severe" value="1" min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                        onchange="adjustRating(this.value)" type="range">
+                </label>
+                <br>
+                <span id="ratingvalue">1</span><br>
+
+                <label>
+                    <span id="stormr">Storm Region: </span><br>
+                    <select id="stormreg">
+                        <option disabled selected>Select Region...</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label><br>
+
+                <span class="danger">
+                    <span>User In-Danger Level:</span><br>
+                    <input type="radio" name="danger" value="Yes"> Yes<br>
+                    <input type="radio" name="danger" value="Maybe" checked> Maybe <br>
+                    <input type="radio" name="danger" value="No"> No <br>
+                    <br>
+                </span>
+
+            </fieldset>
+
+            <fieldset class="aInfo">
+                <legend>Additional Information</legend>
+                <span></span>
+                <textarea name="addinfo" placeholder="Please Insert Additional Info/Comments Here..."></textarea>
+            </fieldset>
+
+            <div>
+                <input type="submit" value="Submit" id="subbutton">
+            </div>
+        </form>
+    </div>
+
+</main>
+  
+  <footer>
+    <aside class= "content">
+      <div class= "contact">
+        <h3>WEATHERNOW</h3>
+        <img src="images/location24.png" alt="WeatherNow Location">123 Main St.<br>
+        Preston, ID<br>
+        06365<br>
+        <img src="images/phone24.png" alt="WeatherNow Phone">(999)999.9999<br>
+        <img src="images/mail24.png" alt="WeatherNow email">contactus@weathernow.com
+        <br><br><br>
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook24.png" alt="WeatherNow Facebook"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="images/instagram24.png" alt="WeatherNow IG"></a>
+        <a href="https://youtube.com" target="_blank"><img src="images/youtube24.png" alt="WeatherNow Youtube"></a>
+        <a href="https://whatsapp.com" target="_blank"><img src="images/whatsapp24.png" alt="WeatherNow Whatsapp"></a>
+    </div> 
+    <picture class="prestonmap">
+        <source media="(min-width: 500px)" srcset="images/map500.jpg">  
+        <source media="(min-width: 456px)" srcset="images/map200.jpg">
+        <img src="images/map500.jpg" alt="Map WeatherNow">
+    </picture>   
+    </aside>
+    
+    
+    <p class="footer-bar">&copy;2018 All Rights Reserved | WEATHERNOW | 
+      <span id="currentdate">Current Date Placeholder</span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/rating.js"></script>
+  <!--<script src="scripts/windchill.js"></script>-->
+
+</body>
+</html>
