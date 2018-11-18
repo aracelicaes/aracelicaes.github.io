@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Weather Project Araceli Camarillo">
+<title>Weather-Now</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/small-9.css" rel="stylesheet">
+<link href="styles/large-9.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="clearfix">
+    <picture class="logo">
+      <source media="(min-width: 500px)" srcset="images/weatherlogo200.png">  
+      <source media="(max-width: 456px)" srcset="images/weatherlogo100.png">
+      <img src="images/weatherlogo100.png" alt="WeatherNow Logo">
+    </picture>
+    <div class="headertext">
+        <h1>WEATHER-NOW</h1>
+        <div id="motto">"We don't let the weather catch you by surprise!"</div>
+    </div>
+    <div class="currentConditions"  >
+        <img src="images/sunny64.png" alt="Current Condition Weather Icon">
+        <p>Sunny</p>    
+    </div>
+  </header>
+
+  <nav class="clearfix">
+      <button onclick="toggleNavMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li class="active"><a href="index.html"> Home </a></li>
+        <li class="active"><a href="preston-9.html">Preston</a></li>
+        <li><a href="#"> Soda Springs </a></li>
+        <li><a href="#"> Fish Haven </a></li>
+        <li class="active"><a href="stormcenter.html"> Storm Center </a></li>
+        <li class="active"><a href="gallery-9.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+<main class="index">
+    <h2>Home</h2>
+    <!-- Weather Story -->
+    <div class="storyindex">
+        <div class="storydata">
+            <h3>Dead Men Tell No tales</h3>
+            <p id="story">
+                Did you know that most of the information shared to you through social media could be a lie?!
+                Information is shared so much today that we have no idea what is true and what isn't. 
+                Videos and information are adjusted to what the media's convenience is and they turn
+                facts around and change the information around to generate new opinions and confusion
+                amongst the people. So, whenever you receive those warning messages on social media, 
+                are you stopping to read and verify if they're real? Or do you just share them just
+                just like that? <a href="#">Continue Reading...</a>
+            </p>
+        </div>
+        <picture class="storyimg">
+            <source media="(min-width: 500px)" srcset="images/mediadanger500.jpg">  
+            <source media="(min-width: 456px)" srcset="images/mediadanger200.jpg">
+            <img src="images/mediadanger500.jpg" alt="Media Danger">
+        </picture> 
+        </div>
+
+    <!-- End of Weather Story -->
+
+    <section class="towndata">
+        <!-- Preston City Data -->
+        <div class="prestonindex">
+
+            <div class="citydata">
+                <h2><span id="prescity">Preston</span></h2>
+                <p>Motto: <span id="presmotto">Motto: </span></p>
+                <p>Year Founded: <span id="presfound">Year Founded: </span></p>
+                <p>Current Population: <span id="prespop">Current Population</span></p>
+                <p>Average Rainfall: <span id="presavrain">Average Rainfall</span>&deg;</p>
+            </div>
+            <picture class="city">
+                <source media="(min-width: 500px)" srcset="images/preston500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/preston200.jpg">
+                <img src="images/preston500.jpg" alt="Preston City">
+            </picture>
+        </div>
+        <!-- End Preston City Data -->
+
+        <!-- Soda Springs City Data -->
+        <div class="sodaindex">
+
+                <div class="citydata">
+                    <h2><span id="scity">Soda Springs</span></h2>
+                    <p>Motto: <span id="smotto">Motto: </span></p>
+                    <p>Year Founded: <span id="sfound">Year Founded: </span></p>
+                    <p>Current Population: <span id="spop">Current Population</span></p>
+                    <p>Average Rainfall: <span id="savrain">Average Rainfall</span>&deg;</p>
+                </div>
+                <picture class="city">
+                    <source media="(min-width: 500px)" srcset="images/sodasprings500.jpg">  
+                    <source media="(min-width: 456px)" srcset="images/sodasprings200.jpg">
+                    <img src="images/sodasprings500.jpg" alt="Soda Springs City">
+                </picture>
+            </div>
+        <!-- End Soda Springs City Data -->
+
+        <!-- Fish Haven City Data -->
+        <div class="fishindex">
+
+                <div class="citydata">
+                    <h2><span id="fcity">Soda Springs</span></h2>
+                    <p>Motto: <span id="fmotto">Motto: </span></p>
+                    <p>Year Founded: <span id="ffound">Year Founded: </span></p>
+                    <p>Current Population: <span id="fpop">Current Population</span></p>
+                    <p>Average Rainfall: <span id="favrain">Average Rainfall</span>&deg;</p>
+                </div>
+                <picture class="city">
+                    <source media="(min-width: 500px)" srcset="images/fishhaven500.jpg">  
+                    <source media="(min-width: 456px)" srcset="images/fishhaven200.jpg">
+                    <img src="images/fishhaven500.jpg" alt="Fish Haven City">
+                </picture>
+            </div>
+        <!-- End Fish Haven City Data -->
+
+        
+    </section>
+</main>
+  
+  <footer>
+    <aside class= "content">
+      <div class= "contact">
+        <h3>WEATHERNOW</h3>
+        <img src="images/phone24.png" alt="WeatherNow Phone">(999)999.9999<br>
+        <img src="images/mail24.png" alt="WeatherNow email">contactus@weathernow.com<br>
+        <img src="images/location24.png" alt="WeatherNow Location">123 Main St.
+        Preston, ID 06365<br>
+        <br>
+        Weather Information Provided By <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a>
+        <br>
+        <br>
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook24.png" alt="WeatherNow Facebook"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="images/instagram24.png" alt="WeatherNow IG"></a>
+        <a href="https://youtube.com" target="_blank"><img src="images/youtube24.png" alt="WeatherNow Youtube"></a>
+        <a href="https://whatsapp.com" target="_blank"><img src="images/whatsapp24.png" alt="WeatherNow Whatsapp"></a>
+    </div> 
+    <picture class="prestonmap">
+      <source media="(min-width: 500px)" srcset="images/map500.jpg">  
+      <source media="(min-width: 456px)" srcset="images/map200.jpg">
+      <img src="images/map500.jpg" alt="Map WeatherNow">
+    </picture>   
+    </aside>
+    
+    
+    <p class="footer-bar">&copy;2018 All Rights Reserved | WEATHERNOW | 
+      <span id="currentdate">Current Date Placeholder</span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
+  <script src="scripts/home.js"></script>
+
+</body>
+</html>
