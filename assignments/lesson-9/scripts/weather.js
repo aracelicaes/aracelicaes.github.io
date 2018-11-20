@@ -13,9 +13,9 @@ request.onload = function () {
   //Weather
   document.getElementById("pweather").innerHTML = prestonWeather.weather[0].main;
   //Temperature
-  document.getElementById("ptemp").innerHTML = prestonWeather.temp;
+  document.getElementById("ptemp").innerHTML = prestonWeather.main.temp;
   //Humidity
-  document.getElementById("phumidity").innerHTML = prestonWeather.humidity;
+  document.getElementById("phumidity").innerHTML = prestonWeather.main.humidity;
   //precipitation
       if (prestonWeather.rain == "Undefined") {
           document.getElementById("pprecip").innerHTML = "No Rain";
