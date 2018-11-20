@@ -10,15 +10,22 @@ request.onload = function () {
   var prestonWeather = JSON.parse(prestonWeatherResp);
   console.log(prestonWeather);
   console.log(prestonWeatherResp);
+  //Weather
   document.getElementById("pweather").innerHTML = prestonWeather.weather[0].main;
- 
- 
+  //Temperature
+  document.getElementById("ptemp").innerHTML = prestonWeather.temp;
+  //Humidity
+  document.getElementById("phumidity").innerHTML = prestonWeather.humidity;
+  //precipitation
   if (prestonWeather.rain == "undefined") {
       document.getElementById("pprecip").innerHTML = "No Rain";
  }
   else {
       document.getElementById("pprecip").innerHTML = prestonWeather.rain;
   }
+  //Wind Speed
+  document.getElementById("pwinds").innerHTML = prestonWeather.wind[0].speed;
+
 }
 
 //FORECAST HERE
