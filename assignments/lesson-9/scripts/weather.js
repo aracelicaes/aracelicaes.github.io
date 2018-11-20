@@ -24,7 +24,7 @@ request.onload = function () {
           document.getElementById("pprecip").innerHTML = prestonWeather.rain;
       }
   //Wind Speed
-  document.getElementById("pwinds").innerHTML = prestonWeather.wind[0].speed;
+  document.getElementById("pwinds").innerHTML = prestonWeather.wind.speed;
 }
 
 //FORECAST HERE
