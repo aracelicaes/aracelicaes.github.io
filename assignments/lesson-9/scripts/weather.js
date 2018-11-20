@@ -20,7 +20,7 @@ request.onload = function () {
 
 
 }
-
+/*
 var forecast = new XMLHttpRequest();
 forecast.open('GET', "", true);
 forecast.send();
@@ -68,4 +68,4 @@ fishHaven.onload = function () {
   var rep = str.replace("http:", "https:");
   document.getElementById("currenticons").innerHTML = rep;
 
-}
+}*/
