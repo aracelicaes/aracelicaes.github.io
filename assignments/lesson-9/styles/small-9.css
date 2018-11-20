@@ -150,7 +150,7 @@ main, footer {
     font-weight: bold;
  }
 
-  .value {
+  .value1p, .value2p, .value3p, .value4p, .value5p, .value6p {
     color: blue;
     font-weight: bold;
   }
