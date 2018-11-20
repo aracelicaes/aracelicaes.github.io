@@ -13,7 +13,6 @@ request.onload = function () {
   document.getElementById("pprecip").innerHTML = prestonWeather.current_observation.clouds;
   document.getElementById("pwinds").innerHTML = prestonWeather.current_observation.speed;
   //document.getElementById("windchill").innerHTML = prestonWeather.current_observation.windchill_f;
-  document.getElementById("currenticon").innerHTML = "<img src= \"" + prestonWeather.current_observation.icon_url + "\" > ";
 
   var str = document.getElementById("currenticon").innerHTML;
   var rep = str.replace("http:", "https:");
