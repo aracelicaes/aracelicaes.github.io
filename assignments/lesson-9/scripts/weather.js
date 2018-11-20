@@ -19,18 +19,6 @@ request.onload = function () {
   else {
       document.getElementById("pprecip").innerHTML = prestonWeather.rain;
   }
-  /* document.getElementById("pweather").innerHTML = prestonWeather.current_observation.weather;
-  document.getElementById("ptemp").innerHTML = prestonWeather.current_observation.temp;
-  document.getElementById("phumidity").innerHTML = prestonWeather.current_observation.humidity;
-  document.getElementById("pprecip").innerHTML = prestonWeather.current_observation.clouds;
-  document.getElementById("pwinds").innerHTML = prestonWeather.current_observation.speed;
-  *///document.getElementById("windchill").innerHTML = prestonWeather.current_observation.windchill_f;
-
-  /*var str = document.getElementById("currenticon").innerHTML;
-  var rep = str.replace("http:", "https:");
-  document.getElementById("currenticon").innerHTML = rep;
-*/
-
 }
 
 //FORECAST HERE
@@ -42,10 +30,9 @@ request2.send();
 request2.onload = function () {
 
   //preston
-  var prestonWeatherResp2 = request2.response;
-  var prestonWeather2 = JSON.parse(prestonWeatherResp2);
-  console.log(prestonWeather2);
-  //console.log(prestonWeatherResp);
-  document.getElementById("one5").innerHTML = prestonWeather2.list[0].main.temp_max;
+  var prestonForecastResp = request2.response;
+  var prestonForecast = JSON.parse(prestonForecastResp);
+  console.log(prestonForecast);
+  document.getElementById("onep").innerHTML = prestonForecast.list[0].main.temp_max;
 
 }
