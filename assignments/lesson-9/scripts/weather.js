@@ -10,6 +10,7 @@ request.onload = function () {
   var prestonWeather = JSON.parse(prestonWeatherResp);
   console.log(prestonWeather);
   console.log(prestonWeatherResp);
+  document.getElementById("pweather").innerHTML = prestonWeather.weather[0].main;
  /* document.getElementById("pweather").innerHTML = prestonWeather.current_observation.weather;
   document.getElementById("ptemp").innerHTML = prestonWeather.current_observation.temp;
   document.getElementById("phumidity").innerHTML = prestonWeather.current_observation.humidity;
