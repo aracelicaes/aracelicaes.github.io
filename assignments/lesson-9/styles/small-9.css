@@ -164,6 +164,13 @@ main, footer {
   #pwinds::after {content: "mph";}
 
 /*----------- TABLE -------*/
+
+  #onep::after {content: "°F";}
+  #twop::after {content: "°F";} 
+  #threep::after {content: "°F";}
+  #fourp::after {content: "°F";}
+  #fivep::after {content: "°F";}
+
 /*available with medium view and up*/
   .forecast {
     display: none;  

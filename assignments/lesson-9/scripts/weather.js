@@ -27,7 +27,7 @@ request.onload = function () {
   document.getElementById("pwinds").innerHTML = prestonWeather.wind.speed;
 }
 
-//FORECAST HERE
+//Preston Forecast Table
 var requestURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5061036&APPID=28503afc8c3e5c6c63a0c4607d300be4&units=imperial&cnt=7";
 var request2 = new XMLHttpRequest();
 request2.open('GET', requestURL2);
@@ -35,10 +35,13 @@ request2.responseType = 'text';
 request2.send();
 request2.onload = function () {
 
-  //preston
+  //5 day forecast Preston
   var prestonForecastResp = request2.response;
   var prestonForecast = JSON.parse(prestonForecastResp);
   console.log(prestonForecast);
   document.getElementById("onep").innerHTML = prestonForecast.list[0].main.temp_max;
-
+  document.getElementById("twop").innerHTML = prestonForecast.list[1].main.temp_max;
+  document.getElementById("threep").innerHTML = prestonForecast.list[2].main.temp_max;
+  document.getElementById("fourp").innerHTML = prestonForecast.list[3].main.temp_max;
+  document.getElementById("fivep").innerHTML = prestonForecast.list[4].main.temp_max;
 }
