@@ -10,17 +10,17 @@ request.onload = function () {
   var prestonWeather = JSON.parse(prestonWeatherResp);
   console.log(prestonWeather);
   console.log(prestonWeatherResp);
-  document.getElementById("pweather").innerHTML = prestonWeather.current_observation.weather;
+ /* document.getElementById("pweather").innerHTML = prestonWeather.current_observation.weather;
   document.getElementById("ptemp").innerHTML = prestonWeather.current_observation.temp;
   document.getElementById("phumidity").innerHTML = prestonWeather.current_observation.humidity;
   document.getElementById("pprecip").innerHTML = prestonWeather.current_observation.clouds;
   document.getElementById("pwinds").innerHTML = prestonWeather.current_observation.speed;
-  //document.getElementById("windchill").innerHTML = prestonWeather.current_observation.windchill_f;
+  *///document.getElementById("windchill").innerHTML = prestonWeather.current_observation.windchill_f;
 
-  var str = document.getElementById("currenticon").innerHTML;
+  /*var str = document.getElementById("currenticon").innerHTML;
   var rep = str.replace("http:", "https:");
   document.getElementById("currenticon").innerHTML = rep;
-
+*/
 
 }
 /*
