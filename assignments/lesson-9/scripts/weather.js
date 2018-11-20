@@ -10,6 +10,10 @@ request.onload = function () {
   var prestonWeather = JSON.parse(prestonWeatherResp);
   console.log(prestonWeather);
   console.log(prestonWeatherResp);
+  
+  //Current Weather Header
+  document.getElementById("pCurrentWeather").innerHTML = prestonWeather.weather[0].main;
+  
   //Weather
   document.getElementById("pweather").innerHTML = prestonWeather.weather[0].main;
   //Temperature
