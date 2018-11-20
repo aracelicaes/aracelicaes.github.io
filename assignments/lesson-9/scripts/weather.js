@@ -36,15 +36,16 @@ request.onload = function () {
 //FORECAST HERE
 var requestURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5061036&APPID=28503afc8c3e5c6c63a0c4607d300be4&cnt=7";
 var request2 = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'text';
-request.send();
-request.onload = function () {
+request2.open('GET', requestURL2);
+request2.responseType = 'text';
+request2.send();
+request2.onload = function () {
 
   //preston
-  var prestonWeatherResp2 = request.response;
-  var prestonWeather2 = JSON.parse(prestonWeatherResp);
-  console.log(prestonWeather);
-  console.log(prestonWeatherResp);
-  document.getElementById("pweather").innerHTML = prestonWeather.weather[0].main;
+  var prestonWeatherResp2 = request2.response;
+  var prestonWeather2 = JSON.parse(prestonWeatherResp2);
+  console.log(prestonWeather2);
+  //console.log(prestonWeatherResp);
+  // document.getElementById("pweather").innerHTML = prestonWeather.weather[0].main;
+
 }
