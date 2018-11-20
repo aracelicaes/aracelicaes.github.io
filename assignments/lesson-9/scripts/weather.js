@@ -17,15 +17,14 @@ request.onload = function () {
   //Humidity
   document.getElementById("phumidity").innerHTML = prestonWeather.humidity;
   //precipitation
-  if (prestonWeather.rain == "undefined") {
-      document.getElementById("pprecip").innerHTML = "No Rain";
- }
-  else {
-      document.getElementById("pprecip").innerHTML = prestonWeather.rain;
-  }
+      if (prestonWeather.rain == "Undefined") {
+          document.getElementById("pprecip").innerHTML = "No Rain";
+    }
+      else {
+          document.getElementById("pprecip").innerHTML = prestonWeather.rain;
+      }
   //Wind Speed
   document.getElementById("pwinds").innerHTML = prestonWeather.wind[0].speed;
-
 }
 
 //FORECAST HERE
