@@ -34,7 +34,7 @@ request.onload = function () {
 }
 
 //FORECAST HERE
-var requestURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5061036&APPID=28503afc8c3e5c6c63a0c4607d300be4&cnt=7";
+var requestURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5061036&APPID=28503afc8c3e5c6c63a0c4607d300be4&units=imperial&cnt=7";
 var request2 = new XMLHttpRequest();
 request2.open('GET', requestURL2);
 request2.responseType = 'text';
