@@ -46,6 +46,6 @@ request2.onload = function () {
   var prestonWeather2 = JSON.parse(prestonWeatherResp2);
   console.log(prestonWeather2);
   //console.log(prestonWeatherResp);
-  // document.getElementById("pweather").innerHTML = prestonWeather.weather[0].main;
+  document.getElementById("one5").innerHTML = prestonWeather2.list[0].main.temp;
 
 }
