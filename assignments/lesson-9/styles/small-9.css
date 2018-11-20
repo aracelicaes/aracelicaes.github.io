@@ -159,7 +159,7 @@ main, footer {
 
   #phumidity::after {content: "%";}
   
-  #pprecip::after {content: "inches";}
+  #pprecip::after {content: "in";}
 
   #pwinds::after {content: "mph";}
 
