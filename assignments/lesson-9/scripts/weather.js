@@ -17,7 +17,7 @@ request.onload = function () {
   //Humidity
   document.getElementById("phumidity").innerHTML = prestonWeather.main.humidity;
   //precipitation
-      if (prestonWeather.rain == "Undefined") {
+      if (prestonWeather.rain == "NA") {
           document.getElementById("pprecip").innerHTML = "No Rain";
     }
       else {
