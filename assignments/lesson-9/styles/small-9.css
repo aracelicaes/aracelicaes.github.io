@@ -150,22 +150,18 @@ main, footer {
     font-weight: bold;
  }
 
-  .value1p, .value2p, .value3p, .value4p, .value5p, .value6p {
+  #pweather, #ptemp, #phumidity, #pprecip, #pwinds {
     color: blue;
     font-weight: bold;
   }
+  
+  #ptemp::after {content: "°F";}
 
-  #temp::after {
-    content: "°F";
-  }
+  #phumidity::after {content: "%";}
+  
+  #pprecip::after {content: "inches";}
 
-  #winds::after {
-    content: "mph";
-  }
-
-  #windchill::after {
-    content: "°F";
-  }
+  #pwinds::after {content: "mph";}
 
 /*----------- TABLE -------*/
 /*available with medium view and up*/
