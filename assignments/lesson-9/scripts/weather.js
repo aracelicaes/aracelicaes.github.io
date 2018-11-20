@@ -11,7 +11,15 @@ request.onload = function () {
   console.log(prestonWeather);
   console.log(prestonWeatherResp);
   document.getElementById("pweather").innerHTML = prestonWeather.weather[0].main;
- /* document.getElementById("pweather").innerHTML = prestonWeather.current_observation.weather;
+ 
+ 
+  if (prestonWeather.rain == "undefined") {
+      document.getElementById("pprecip").innerHTML = "No Rain";
+ }
+  else {
+      document.getElementById("pprecip").innerHTML = prestonWeather.rain;
+  }
+  /* document.getElementById("pweather").innerHTML = prestonWeather.current_observation.weather;
   document.getElementById("ptemp").innerHTML = prestonWeather.current_observation.temp;
   document.getElementById("phumidity").innerHTML = prestonWeather.current_observation.humidity;
   document.getElementById("pprecip").innerHTML = prestonWeather.current_observation.clouds;
