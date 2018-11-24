@@ -190,6 +190,39 @@ nav ul.hide {
   #thanks {
     font-size: 3rem;
   }
+
+ /*----------- FISH HAVEN ARTICLE -------*/
+.fhstory {
+   margin-top: 10%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ } 
+ .fhartimg {
+   order: 3;
+   width: 45%;
+ }
+
+ .fhartimg > img {
+    width: 100%;
+ }
+
+ /*----------- SODA SPRINGS ARTICLE -------*/
+.spstory {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} 
+.spartimg {
+  order: 3;
+  width: 45%;
+}
+
+.spartimg > img {
+   width: 100%;
+}
+
 }
 
     

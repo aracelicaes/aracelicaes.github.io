@@ -414,3 +414,76 @@ textarea {
   color: rgb(46, 13, 73);
   font-size: 1rem;
 }
+
+
+/*--------FISH HAVEN-------------*/
+#fhweather, #fhtemp, #fhhumidity, #fhprecip, #fhwinds {
+  color: blue;
+  font-weight: bold;
+}
+
+#fhtemp::after {content: "°F";}
+
+#fhhumidity::after {content: "%";}
+
+#fhprecip::after {content: "in";}
+
+#fhwinds::after {content: "mph";}
+
+/*----------- FH TABLE -------*/
+
+#onefh::after {content: "°F";}
+#twofh::after {content: "°F";} 
+#threefh::after {content: "°F";}
+#fourfh::after {content: "°F";}
+#fivefh::after {content: "°F";}
+
+/*----------- FH ARTICLE -------*/
+.fhstory {
+  margin-top: 15%;
+  border: 2pt solid darkblue;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.fhartimg > img {
+  box-shadow: 5px 5px 6px grey;
+  width: 100%;
+}
+
+/*--------SODA SPRINGS-------------*/
+#spweather, #sptemp, #sphumidity, #spprecip, #spwinds {
+  color: blue;
+  font-weight: bold;
+}
+
+#sptemp::after {content: "°F";}
+
+#sphumidity::after {content: "%";}
+
+#spprecip::after {content: "in";}
+
+#spwinds::after {content: "mph";}
+
+/*----------- SP TABLE -------*/
+
+#onesp::after {content: "°F";}
+#twosp::after {content: "°F";} 
+#threesp::after {content: "°F";}
+#foursp::after {content: "°F";}
+#fivesp::after {content: "°F";}
+
+/*----------- SP ARTICLE -------*/
+.spstory {
+  margin-top: 15%;
+  border: 2pt solid darkblue;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.spartimg > img {
+  box-shadow: 5px 5px 6px grey;
+  width: 100%;
+}
