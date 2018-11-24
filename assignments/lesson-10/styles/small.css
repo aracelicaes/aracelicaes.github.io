@@ -206,9 +206,10 @@ main, footer {
     display: flex;
     flex-direction: column;
   }
-
+  
   .prestonimg > img {
     box-shadow: 5px 5px 6px grey;
+    width: 100%;
   }
 
   .story {
