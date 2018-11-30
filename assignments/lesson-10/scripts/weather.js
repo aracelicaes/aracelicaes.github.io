@@ -14,7 +14,7 @@ request.onload = function () {
   //Current Weather Header
   document.getElementById("pCurrentWeather").innerHTML = prestonWeather.weather[0].main;
   //Current Weather Header Icon
-  document.getElementById("pCurrentWeatherIcon").src = "http://openweathermap.org/img/w/"+prestonWeather.weather[0].icon+".png";
+  document.getElementById("pCurrentWeatherIcon").src = "https://openweathermap.org/img/w/"+prestonWeather.weather[0].icon+".png";
   //Weather
   document.getElementById("pweather").innerHTML = prestonWeather.weather[0].main;
   //Temperature

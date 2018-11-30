@@ -303,9 +303,9 @@ main > h2 {
   font-size: 1rem;
 }
 
-/*--Story Preston Soda Springs Fish Haven--*/
+/*--Story Preston Soda Springs --*/
 
-.storyindex, .prestonindex, .sodaindex, .fishindex {
+.storyindex, .prestonindex, .sodaindex {
   border: 2px solid blue;
   width: 100%;
   margin-bottom: 10%;
@@ -417,40 +417,139 @@ textarea {
 
 
 /*--------FISH HAVEN-------------*/
-#fhweather, #fhtemp, #fhhumidity, #fhprecip, #fhwinds {
-  color: blue;
-  font-weight: bold;
-}
+  /*--Header Fish Haven Pg--*/
+    .headerfish {
+      display: grid;
+      grid-template-columns: .35fr 1fr;
+      grid-column-gap: 5%;
+    }
 
-#fhtemp::after {content: "°F";}
+    .fheadertext {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr .5fr;
+    }
+    
+    .flogo > img {
+      margin-left: 8%;
+    }
+    .fcurrentConditions {
+      display: none;
+    }
+    
 
-#fhhumidity::after {content: "%";}
+  /*--Nav Menu Fish Haven--*/
+    .fishnav > ul {
+      /*hidden nav menu */
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 7fr;
+    }
 
-#fhprecip::after {content: "in";}
 
-#fhwinds::after {content: "mph";}
+  /*--Banner and Page Title--*/
+    .fbanner {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 0;
+      margin: 0;
+    }
+    .fbannertitle > h2 {
+      text-align: center;
+    }
+
+    .fbannerfigure > img {
+      max-width: 100%;
+    }
+
+  /*--FH WeatherDetails Section--*/
+    .fweatherdetails {
+      display: grid;
+      grid-template-columns: 1fr;
+      background-color: rgba(135, 206, 250, 0.473);
+      margin-top: -110px;
+      margin-bottom: 0px;
+      max-width: 164px;
+      padding: 2%;
+      border: 2pt solid darkblue;
+      font-weight: bold;
+    }
+    
+    .fweatherdetails > h4 {
+      text-align: center;
+      color: whitesmoke;
+      margin-top: 2px;
+      margin-bottom: 2px;  
+    }
+    
+    .fweathdet {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 5fr;
+      width: 100%;
+    }
+
+    .fweathdet > p {
+      margin-top: 0px;
+      margin-bottom: 5px;
+    }
+    .fwdinfo {
+      color: darkblue;
+    }
+
+
+    #fhweather, #fhtemp, #fhhumidity, #fhprecip, #fhwinds {
+      color: blue;
+      font-weight: bold;
+    }
+
+    #fhtemp::after {content: "°F";}
+
+    #fhhumidity::after {content: "%";}
+
+    #fhprecip::after {content: "in";}
+
+    #fhwinds::after {content: "mph";}
 
 /*----------- FH TABLE -------*/
-
-#onefh::after {content: "°F";}
-#twofh::after {content: "°F";} 
-#threefh::after {content: "°F";}
-#fourfh::after {content: "°F";}
-#fivefh::after {content: "°F";}
+      .forecastF {
+        display: none;
+      }
+      #onefh::after {content: "°F";}
+      #twofh::after {content: "°F";} 
+      #threefh::after {content: "°F";}
+      #fourfh::after {content: "°F";}
+      #fivefh::after {content: "°F";}
 
 /*----------- FH ARTICLE -------*/
-.fhstory {
-  margin-top: 15%;
-  border: 2pt solid darkblue;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-}
+    .fhstory {
+      margin-top: 15%;
+      border: 2pt solid darkblue;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 4fr;
+      padding: 2%;
+    }
 
-.fhartimg > img {
-  box-shadow: 5px 5px 6px grey;
-  width: 100%;
-}
+    .fhartimg > img {
+      box-shadow: 5px 5px 6px grey;
+      width: 100%;
+    }
+/*----------- FH FOOTER -------*/
+    .fishfooter {
+      margin-top: 5%;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 3fr;
+      padding: 2%;
+    }
+
+    .prestonmapf > img {
+      width: 98%;
+    }
 
 /*--------SODA SPRINGS-------------*/
 #spweather, #sptemp, #sphumidity, #spprecip, #spwinds {

@@ -176,8 +176,8 @@ nav ul.hide {
     flex-direction: row;
   }
 
-  /*--Preston Soda Springs Fish Haven--*/
-  .prestonindex, .sodaindex, .fishindex {
+  /*--Preston Soda Springs--*/
+  .prestonindex, .sodaindex {
     display: flex;
     flex-direction: column;
     border: 1px solid blue;
@@ -187,16 +187,23 @@ nav ul.hide {
   }
 
 /*----------STORM CENTER ---------*/
-  #thanks {
+.stormcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}  
+
+.pInfo, .aInfo, .sInfo {
+  margin: 1% 30% 0 30%;
+}
+
+#thanks {
     font-size: 3rem;
   }
 
  /*----------- FISH HAVEN ARTICLE -------*/
 .fhstory {
    margin-top: 10%;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
  } 
  .fhartimg {
    order: 3;
