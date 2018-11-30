@@ -1,4 +1,4 @@
-  /* This main css file contains the default rules and is geared toward the small/phone view */
+/*--This main css file contains the default rules and is geared toward the small/phone view--*/
 
 /*----------- BODY-------*/
 body {
@@ -444,7 +444,7 @@ textarea {
       list-style-type: none;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 7fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
 
@@ -543,7 +543,6 @@ textarea {
       padding: 0;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 3fr;
       padding: 2%;
     }
 

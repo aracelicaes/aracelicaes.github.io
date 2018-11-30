@@ -201,19 +201,6 @@ nav ul.hide {
     font-size: 3rem;
   }
 
- /*----------- FISH HAVEN ARTICLE -------*/
-.fhstory {
-   margin-top: 10%;
- } 
- .fhartimg {
-   order: 3;
-   width: 45%;
- }
-
- .fhartimg > img {
-    width: 100%;
- }
-
  /*----------- SODA SPRINGS ARTICLE -------*/
 .spstory {
   margin-top: 10%;
@@ -229,6 +216,131 @@ nav ul.hide {
 .spartimg > img {
    width: 100%;
 }
+
+/*--------FISH HAVEN-------------*/
+  /*--Header Fish Haven Pg--*/
+  .headerfish {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5%;
+  }
+
+  .fheadertext {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .5fr;
+  }
+
+  .fheadertext > h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  .flogo > img {
+    margin-left: 0%;
+  }
+  .fcurrentConditions {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    margin: 0;
+    padding: 1%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.952); 
+    border: 1pt solid burlywood;
+    font-size: 1rem;
+  }
+  
+
+/*--Nav Menu Fish Haven--*/
+  .fishnav > ul.hide {
+    /*hidden nav menu */
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+  }
+
+
+/*--Banner and Page Title--*/
+  .fbanner {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0;
+  }
+  .fbannertitle > h2 {
+    text-align: center;
+  }
+
+  .fbannerfigure > img {
+    max-width: 100%;
+  }
+
+/*--FH WeatherDetails Section--*/
+  .fweatherdetails {
+    margin-top: -184px;
+  }
+
+/*----------- FH TABLE -------*/
+    .forecastF {
+      margin-top: 5%;
+      display: grid;
+      grid-template-columns: 1fr;
+      background-color: rgb(86, 13, 116);
+      padding: 5%;
+      width: 88%;
+    }
+
+    .forecastF > h3 {
+      text-align: center;
+      color: whitesmoke;
+    }
+
+    .fishtable {
+      border-collapse: collapse;
+    }
+
+    #onefh::after {content: "°F";}
+    #twofh::after {content: "°F";} 
+    #threefh::after {content: "°F";}
+    #fourfh::after {content: "°F";}
+    #fivefh::after {content: "°F";}
+
+/*----------- FH ARTICLE -------*/
+  .fhstory {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 2%;
+    width: 93.5%;
+  }
+
+  .fishartcl {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5%;
+  }
+/*----------- FH FOOTER -------*/
+  .fishfooter {
+    text-align: center;
+    width: 90%;
+  }
+
+  .fcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fcontact {
+    width: 80%;
+  }
+
+  .prestonmapf > img {
+    width: 100%;
+  }
+
 
 }
 
