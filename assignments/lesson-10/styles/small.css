@@ -305,7 +305,7 @@ main > h2 {
 
 /*--Story Preston Soda Springs --*/
 
-.storyindex, .prestonindex, .sodaindex {
+.storyindex, .prestonindex, .sodaindex, .fishindex {
   border: 2px solid blue;
   width: 100%;
   margin-bottom: 10%;
