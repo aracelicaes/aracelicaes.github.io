@@ -12,4 +12,81 @@
   #thanks {
     font-size: 1.5rem;
   }
+
+/*--Main Fish Haven--*/  
+  /*--------FISH HAVEN-------------*/
+.fishmedium {
+  display: grid;
+  grid-template-columns: .15fr 1fr;
+}
+/*--Nav Menu Fish Haven--*/
+  nav > button {
+    display: none;
+  }
+
+  .fishnav > ul.hide {
+    /*hidden nav menu */
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    grid-gap: 25%;
+    width: 100%;
+  }
+/*----------- FH TABLE -------*/
+.forecastF {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(86, 13, 116);
+  padding: 5%;
+  width: 88%;
+}
+
+.forecastF > h3 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.fishtable {
+  border-collapse: collapse;
+}
+
+/*----------- FH ARTICLE -------*/
+.fhstory {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 2%;
+  width: 93.5%;
+}
+
+.fishartcl {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5%;
+}
+
+  /*----------- FH FOOTER -------*/
+  .fishfooter {
+    text-align: center;
+    width: 95%;
+    margin: 0;
+  }
+
+  .fcontent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fcontact {
+    width: 80%;
+  }
+
+  .prestonmapf > img {
+    width: 100%;
+  }
+
+
 }
