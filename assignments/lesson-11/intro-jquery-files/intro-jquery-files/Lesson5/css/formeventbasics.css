@@ -1,0 +1,68 @@
+.container {
+	position:absolute;
+	width:640px;
+	height: 408px;
+	border:1px solid;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+}
+
+.formFieldHolder {
+	position: relative;
+	width: 600px;
+	background: rgb(205, 204, 204);
+	height: 28px;
+	padding: 20px;
+}
+
+.label {
+	position: relative;
+	font-family: sans-serif;
+	width: 170px;
+	/* border: 1px solid; */
+	float: left;
+}
+
+.field {
+	position: relative;
+	font-family: sans-serif;
+	width: 426px;
+	/* border: 1px solid; */
+	float: left;
+	top: -15px;
+}
+
+.label > h3 {
+	margin:0px;
+	color:#FFF;
+	font-size:20px;
+}
+
+.field > input,select {
+	font-size: 22px;
+	width: 407px;
+	padding: 10px;
+	opacity: 0.5;
+	border: none;
+	-webkit-transition: opacity 300ms,background-color 300ms;
+	   -moz-transition: opacity 300ms,background-color 300ms;
+	    -ms-transition: opacity 300ms,background-color 300ms;
+	     -o-transition: opacity 300ms,background-color 300ms;
+	        transition: opacity 300ms,background-color 300ms;
+}
+
+button {
+    font-size: 23px;
+}
+
+input.focus {
+	opacity:1.0
+}
+
+input.select {
+	opacity:1.0;
+	background-color:rgb(0,255,0);
+}

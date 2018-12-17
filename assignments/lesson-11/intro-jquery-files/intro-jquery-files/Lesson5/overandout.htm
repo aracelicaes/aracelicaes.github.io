@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mouse Events</title>
+	<link rel="stylesheet" href="css/overandout.css">
+	<script src="js/jquery-2.2.1.min.js"></script>
+	<script>
+	$(function(){
+
+			// This function returns a random colour from the given array everytime that it is invoked.
+			function randomize(){
+				var colors = ['Red','Green','Yellow','Blue','Purple']
+				return colors[parseInt(Math.random()*colors.length)];
+			}
+
+			// Your jQuery Code goes here
+
+	})
+	</script>
+</head>
+<body>
+	<div class="container">
+		<h1 class="first">mouseover / mouseout</h1>
+		<div class="outerOne">
+			<div class="innerOne"></div>
+		</div>
+
+		<h1 class="second">mouseenter / mouseleave</h1>
+		<div class="outerTwo">
+			<div class="innerTwo"></div>
+		</div>
+	</div>
+</body>
+</html>

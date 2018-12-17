@@ -1,0 +1,65 @@
+.container {
+	position:absolute;
+	width:820px;
+	height:610px;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	border:1px solid black;
+}
+
+.box1	{
+	position: absolute;
+	border: 1px solid rgba(0,0,0,0.3);
+	top: 47px;
+	left: 66px;
+	width: 296px;
+	height: 495px;
+	background-color: rgb(243, 162, 162);
+	padding:10px;
+}
+
+.buttonHolder {
+	position: absolute;
+	/*border: 1px solid red;*/
+	width: 61px;
+	height: 135px;
+	left: 387px;
+	top: 240px;
+}
+
+button#LeftToRight {
+	position: absolute;
+	top: 23px;
+	left: 11px;
+	padding: 10px;
+}
+
+button#RightToLeft {
+	position: absolute;
+	top: 76px;
+	left: 11px;
+	padding: 10px;
+}
+
+.box2	{
+	position: absolute;
+	border: 1px solid rgba(0,0,0,0.3);
+	top: 47px;
+	left: 454px;
+	width: 296px;
+	height: 495px;
+	background-color: rgb(162, 243, 192);
+	padding:10px;
+}
+
+p {
+	font-size: 15px;
+	font-family: serif;
+}
+
+h1 {
+	font-size: 19px;
+}

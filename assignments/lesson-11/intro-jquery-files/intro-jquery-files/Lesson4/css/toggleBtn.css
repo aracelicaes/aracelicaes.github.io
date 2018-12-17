@@ -1,0 +1,39 @@
+.container {
+	position:absolute;
+	width:480px;
+	height:25px;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+}
+
+.toggleBtn {
+	position: relative;
+	width: 100px;
+	height: 17px;
+	border: 3px solid rgb(213, 66, 66);
+	padding: 25px;
+	top:0px;
+	background: rgb(255, 98, 98);
+	color: #FFF;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 15px;
+	box-shadow: 2px 6px 1px rgb(213, 66, 66);
+	-webkit-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;
+	   -moz-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;
+	    -ms-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;
+	     -o-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;
+	        transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;
+}
+
+.toggleOn {
+	border: 3px solid rgb(86, 185, 86);
+	background: rgb(70, 225, 70);
+	box-shadow: 0px 0px 1px rgb(0,0,0);
+	top: 6px;
+}

@@ -1,0 +1,44 @@
+.boxHolder {
+	position: absolute;
+	width: 624px;
+	height: 416px;
+	border: 1px solid;
+	top:0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	padding: 0px;
+	list-style: none;
+}
+
+.boxHolder > li {
+	position:relative;
+	float:left;
+	width:200px;
+	height:200px;
+	margin:4px;
+	background:red;
+	-webkit-transition: background 900ms;
+	-o-transition: background 900ms;
+	transition: background 900ms;
+	font-size: 67px;
+	line-height: 197px;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 1px 2px 1px black;
+	/* Prevents Selection of Content When Double Clicked */
+	 -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+li.greenBox {
+	background: green;
+}
+
+li.orangeBox {
+	background: orange;
+}
+

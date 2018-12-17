@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alcove Digital Systems</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-2.2.1.min.js"></script>
+	<script>
+	$(function(){
+		// jQuery Code goes here
+
+	})
+	</script>
+</head>
+<body>
+<!-- Master Container Div -->
+	<div class="container">
+	<!-- Header Div containing the Logo & Navigation Links -->
+		<div class="header">
+			<div class="logo" id="alcoveLogo"></div>
+			<div class="navbar">
+				<ul class="navigation">
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Catalog</a></li>
+					<li><a href="#">Support</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Content Div -->
+		<div class="content">
+			<div class="headImage"></div>
+			<!-- Get a Free Quote Form -->
+			<div class="registerForm">
+				<form id="GetAQuoteForm">
+					<img class="ReqAQuoteImg" src="img/quote.png" alt="">
+					<br>
+					<div class="FormFieldHolder">
+						<div class="labelHolder"><label>Full Name</label></div>
+						<div class="FieldHolder"><input type="text" name="nameVal"></div>
+					</div>
+
+					<div class="FormFieldHolder">
+						<div class="labelHolder"><label>E-Mail</label></div>
+						<div class="FieldHolder"><input type="text" name="emailVal"></div>
+					</div>
+
+					<div class="FormFieldHolder">
+						<div class="labelHolder"><label>Phone</label></div>
+						<div class="FieldHolder"><input type="text" name="phoneNum"></div>
+					</div>
+
+					<div class="FormFieldHolder">
+						<div class="labelHolder"></div>
+						<div class="FieldHolder"><button type="button" id="ReqAQuoteBtn" data-code="028">Request A Quote !</button></div>
+					</div>
+				</form>
+			</div>
+			<h2 class="motto">We Bring Your Digital Dreams To Life</h2>
+			<!-- Content Boxes Container Div -->
+			<div class="contentBoxes">
+				<div class="boxes box1">
+					<h2>The Values that Drive Us</h2>
+					<hr>
+					<p>Alcove adopts various driving factors of corporate philosophy in our day to day activities that ultimately lead to success. We strive to achieve our value guidelines by incorporating our principles into each relationship with our clients to obtain long lasting customers. <br><br>Our core values : <br><br></p>
+					<ul class="coreValues">
+						<li>Innovative Ideas</li>
+						<li>Ownership</li>
+						<li>Frugality</li>
+						<li>Integrity</li>
+						<li>Trustworthiness</li>
+						<li>Customer Obsession</li>
+					</ul>
+				</div>
+				<div class="boxes box2">
+					<h2>What we do</h2>
+					<hr>
+					<p>Innovation is the key to success. Alcove's expertise covers a wide range of services, technologies, tools and platforms. Here are some of the things we're really good at :<br><br></p>
+					<ul>
+						<li><a href="#" class="servicesBtn">Web Design & Development</a></li>
+						<li><a href="#" class="servicesBtn">Web Application Development</a></li>
+						<li><a href="#" class="servicesBtn">iOS Mobile Application Development</a></li>
+						<li><a href="#" class="servicesBtn">UI/UX Design & Development</a></li>
+						<li><a href="#" class="servicesBtn">Android Application Development</a></li>
+					</ul>
+				</div>
+				<div class="boxes box3">
+					<h2>Our Work</h2>
+					<hr>
+					<a href="#" class="showcaseBtn"><img src="img/websites.jpg" alt=""></a>
+					<a href="#" class="showcaseBtn"><img src="img/mobileapps.jpg" alt=""></a>
+					<a href="#" class="showcaseBtn"><img src="img/webapps.jpg" alt=""></a>
+					<select name="showcaseOthers" id="showcaseOthers">
+						<option value="01">UI/UX Design</option>
+						<option value="02">Big Data Implementation</option>
+						<option value="03">Graphic Design</option>
+						<option value="04">3D Animation</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<h5>© Alcove Digital Systems | <a href="#">Terms of Use</a></h5>
+		</div>
+	</div>
+</body>
+</html>

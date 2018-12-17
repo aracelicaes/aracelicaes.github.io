@@ -1,0 +1,65 @@
+.countbox {
+    position:absolute;
+    width:500px;
+    height:150px;
+    border:1px solid;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    padding:10px;
+    border-radius:8px;
+    background:rgba(0,0,0,0.03);
+    overflow:hidden;
+}
+
+.textbox {
+    width:494px;
+    height:100px;
+    font-size:18px;
+    text-shadow:0px 1px 1px rgba(0,0,0,0.3);
+    background-color:#FFF;
+    -webkit-transition: background-color 300ms;
+       -moz-transition: background-color 300ms;
+        -ms-transition: background-color 300ms;
+         -o-transition: background-color 300ms;
+            transition: background-color 300ms;
+}
+
+.redWarning {
+    background-color: rgba(229, 0, 0, 0.5);
+}
+
+.countDisplay {
+    position:absolute;
+    font-size:25px;
+    font-family:sans-serif;
+    margin:0px;
+    padding:0px;
+    top:130px;
+    font-weight:normal;
+}
+
+.submitted {
+    position: absolute;
+    width: 520px;
+    height: 171px;
+    background: rgb(255, 234, 0);
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    display:none;
+}
+
+.submitted > h2 {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top: 64px;
+    left: 147px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.27);
+}

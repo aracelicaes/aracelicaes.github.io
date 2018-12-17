@@ -1,0 +1,280 @@
+/* Style.css | Created by Sachin Bhatnagar (mailme@sachinbhatnagar.com) for 
+Introduction to jQuery (Learnable) | August 2014 */
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+* {
+	font-family:sans-serif;
+	margin:0px;	
+}
+
+html,body {
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background:url('../img/congruent_pentagon.png');
+}
+
+.container {
+	position:relative;
+	width:960px;
+	height:770px;
+	margin:auto;
+	background:rgba(255,255,255,0.5);
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.45);
+}
+
+.header {
+	position:relative;
+	width:960px;
+	height:100px;
+	border-bottom:2px solid rgb(130, 196, 247);
+}
+
+.logo {
+	position:relative;
+	width:250px;
+	height:100px;
+	float:left;
+	background:url('../img/logo.png');
+	background-color:rgb(235, 253, 212);
+}
+
+.navbar {
+	position:relative;
+	width:710px;
+	height:100px;
+	float:left;
+	background:rgba(207, 251, 203, 0.55);
+}
+
+.navbar > .navigation {
+	position:relative;
+	top:35px;
+	left:20px;
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+.navigation li {
+	width:100px;
+	text-align:center;
+	padding:6px;
+	font-size:15px;
+	float:left;
+}
+
+.navigation a {
+	color:#000;
+	text-decoration:none;
+	font-family: 'Raleway', sans-serif;
+	text-shadow:0px 0px 1px rgba(0,0,0,0.3);
+}
+
+.content {
+	position:relative;
+	height:669px;
+}
+
+.headImage {
+	position:absolute;
+	top:20px;
+	left:20px;
+	width:600px;
+	height:250px;
+	background:url('../img/head_image.jpg');
+	border-radius:5px;
+}
+
+.registerForm {
+	position: absolute;
+	top: 20px;
+	left: 630px;
+	width: 300px;
+	height: 238px;
+	background: rgba(200, 245, 202, 1);
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	border: 1px solid rgb(108, 200, 53);
+}
+
+.ReqAQuoteImg {
+	position:relative;
+	width:200px;
+	top:0px;
+}
+
+/* Form Styles */
+
+.FormFieldHolder {
+	position: relative;
+	padding: 12px;
+	/*border: 1px solid;*/
+	height: 29px;
+}
+
+.labelHolder {
+	position:relative;
+	float:left;
+	width:80px;
+	padding:5px;
+	/*border:1px solid;*/
+	margin-right:4px;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+}
+
+.FieldHolder {
+	position:relative;
+	float:left;
+}
+
+.FieldHolder input {
+	float:left;
+	width: 158px;
+	padding: 7px;
+	border: 0px;
+	font-size: 12px;
+}
+
+.FieldHolder button {
+	padding: 9px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+	background: #7BDA97;
+	font-size: 12px;
+	text-shadow: 0px 0px;
+}
+
+.contentBoxes {
+	position:relative;
+	width:958px;
+	height:365px;
+	top:350px;
+}
+
+.boxes {
+	position:relative;
+	background:rgba(112, 239, 225, 0.18);
+	float:left;
+	width:305px;
+	margin:2px;
+	height:300px;
+	padding:5px;
+	border-top:4px solid rgba(0,0,0,0.2);
+}
+
+.contentBoxes h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	line-height: 25px;
+}
+
+.contentBoxes p {
+	font-family: 'Raleway', sans-serif;
+	text-align:justify;
+	font-weight:normal;
+	font-size: 13px;
+}
+
+.box1 {
+	margin-left:3px;
+}
+
+.box1 > hr {
+	margin-top:4px;
+	margin-bottom: 4px;
+	color:red;
+	border:1px solid;
+}
+
+.box2 > hr {
+	margin-top:4px;
+	margin-bottom: 4px;
+	color:orange;
+	border:1px solid;
+}
+
+.box3 > hr {
+	margin-top:4px;
+	margin-bottom: 4px;
+	color:rgb(0, 245, 255);
+	border:1px solid;
+}
+
+.servicesBtn {
+	text-decoration: none;
+	color:#000;
+}
+
+.boxes > ul {
+	list-style:square;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Raleway', sans-serif;
+	color:rgba(0,0,0,0.8);
+}
+
+.box2 > ul {
+	margin:0px;
+	padding: 0px;
+}
+
+.box2 > ul > li {
+	padding:7px;
+	background:rgba(0,0,255,0.2);
+	margin:4px;
+	list-style: none;	
+}
+
+.box3 select {
+	position: absolute;
+	top: 194px;
+	left:0px;
+	padding: 20px;
+	width: 305px;
+	border: none;
+	border-radius: 2px;
+	background: rgba(132, 219, 186, 0.41);
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+.motto {
+	position: absolute;
+	top: 290px;
+	text-align: center;
+	width: 960px;
+	font-size: 34px;
+	font-weight: 100;
+	font-family: 'Raleway', sans-serif;
+}
+
+.footer {
+	position:relative;
+	height:30px;
+	background:rgba(0, 167, 255, 0.86);
+}
+
+.footer h5 {
+	position: absolute;
+	top: 8px;
+	left: 7px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	color: rgba(0,0,0,0.8);
+}
+
+.footer a {
+	text-decoration: none;
+	font-weight: normal;
+	color:inherit;
+}
+
+

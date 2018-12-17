@@ -1,0 +1,38 @@
+body, html {
+	margin:0px;
+	padding:0px;
+	position:relative
+}
+
+.navigation {
+	position: relative;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	text-shadow:0px 0px 1px rgba(0,0,0,0.2);
+	list-style: none;
+	top: 70px;
+	height: 97px;
+}
+
+.navigation > li {
+	position: relative;
+	background: rgba(0,0,0,0.2);
+	width: 150px;
+	height: 10px;
+	padding: 20px;
+	margin-top: 2px;
+	left: -188px;
+	border-right: 50px solid red;
+	-webkit-transition: left 500ms;
+	   -moz-transition: left 500ms;
+	    -ms-transition: left 500ms;
+	     -o-transition: left 500ms;
+	        transition: left 500ms;
+}
+
+
+li.openSesame {
+	left:0px;
+}

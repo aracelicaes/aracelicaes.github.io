@@ -1,0 +1,38 @@
+.container {
+	position:absolute;
+	width:600px;
+	height:216px;
+	/*border:1px solid black;*/
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin: auto;
+}
+
+.fruits {
+	padding:5px;
+	margin:0px;
+	width:600px;
+	height:216px;
+	list-style: none;
+}
+
+.fruits > li {
+	width: 100px;
+	height: 100px;
+	border: 2px solid rgb(187, 100, 100);
+	float: left;
+	margin: 2px;
+	padding: 4px;
+	background: rgb(249, 121, 121);
+	border-radius: 5px;
+	text-align: center;
+	font-family: sans-serif;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 44px;
+	text-shadow: 0px 1px 1px black;
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	
+}
