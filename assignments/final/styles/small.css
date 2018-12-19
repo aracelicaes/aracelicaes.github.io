@@ -1,0 +1,252 @@
+/*--This main css file contains the default rules and is geared toward the small/phone view--*/
+
+/*----------- BODY-------*/
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  width: 100%;
+  background-color: white;
+}
+
+/*----------- HEADER-------*/
+header {
+  background-color: #80b8af;
+  display: flex;
+  color: #fff8ea;
+  align-items: center;
+  font-family: 'Libre Baskerville', serif;
+  margin: 0;
+}
+
+    .tilogo {
+      width: 30%;
+      border: 3pt solid #fff8ea;
+      margin-left: 0;
+    }
+
+    .tilogo > img {
+      width: 80%;
+      margin-left: 9%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+
+    .headertext{
+      width: 60%;
+    }
+
+    .headertext > h1 {
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-bottom: 2px;
+      color: white;
+      font-size: 23px;
+    }
+
+    #timotto {
+      font-size: 14px;
+      font-style: italic;
+      margin-left: 10px;
+    }
+
+/*----------- NAV MENU-------*/
+
+nav {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+}
+
+nav button {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: rgba(81, 154, 156, 0.705);
+  width: 100%;
+}
+
+ul {
+  /*hidden nav menu */
+  list-style-type: none;
+  background-color: rgba(81, 154, 156, 0.705);
+  margin-top: 0;
+  padding: 2% 0 2% 0;
+  text-align: center;
+
+}
+
+li  a {
+  /*hidden nav menu */
+  display: block;
+  max-width: 100%;
+  margin: 2% 0 2% 0;
+  padding: 2% 0 2% 0;
+  color: white;
+}
+
+
+li a.active {
+  background-color: rgba(255, 166, 0, 0.932);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  color: black;
+  background-color: rgba(247, 203, 8, 0.63);
+}
+
+.hide {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*----------- MAIN -------*/
+main {
+    background-color: white;
+    display: block;
+    align-items: center;
+    max-width: 100%;
+  }
+
+/*----------- BANNER SECTION -------*/
+  .hbannerImage {
+    width: 100%;
+    margin: 0;
+  }
+  .hbannerImage > img {
+    width: 100%;
+  }
+  
+/*----------- WELCOME TEXT -------*/
+.welcome {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+
+}
+.welcomeData > h2 {
+  font-family: 'Libre Baskerville', serif;
+  color: orange;
+  background-color: rgba(255, 166, 0, 0.301);
+  text-align: center;
+  padding: 5%;
+  margin: 0;
+}
+#welcomeText {
+  text-align: justify;
+  background-color: rgba(245, 193, 97, 0.068);
+  padding: 2%;
+  margin: 0;
+}
+
+.welcomeData a {
+  color: #80b8af;
+  font-weight: bold;
+}
+
+/*----------- TEMPLE DATA -------*/
+.locations > h3 {
+  color: white;
+  background-color: #80b8af;
+  font-size: 30px;
+  padding: 2%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.aLocation {
+  color: white;
+  background-color: orange;
+  padding: 2%;
+  max-width: 130px;
+  position: relative;
+  margin-bottom: -15%;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+}
+
+.cityTemple > img {
+  width: 100%;
+}
+
+.cityinfo {
+  margin-top: -59%;
+  margin-bottom: 1%;
+  color: white;
+  background-color: rgba(255, 166, 0, 0.719);
+  padding: 2%;
+  max-width: 130px;
+  font-size: 12px;
+  text-align: left;
+  position: relative;
+}
+
+/*----------- ACTIVITY DATA -------*/
+.activities > h3 {
+  color: white;
+  background-color: #80b8af;
+  font-size: 30px;
+  padding: 2%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity > img {
+  width: 100%;
+  margin-bottom: -5%;
+}
+
+.activityInfo {
+  background-color: rgba(255, 166, 0, 0.719);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 2%;
+}
+
+.activityInfo a {
+  color: white;
+}  
+
+/*----------- FOOTER -------*/
+footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  background-color: #80b8af;
+}
+
+.contact {
+  padding: 5%;
+}
+
+#templeinnMap > iframe {
+  width: 95%;
+  margin-left: 2%;
+}
+
+.footer-bar {
+  color: white;
+  background-color: rgba(255, 166, 0, 0.918);
+  padding-bottom: 2%;
+  padding-top: 2%;
+  text-align: center;
+  font-size: smaller;
+  margin: 0;
+}

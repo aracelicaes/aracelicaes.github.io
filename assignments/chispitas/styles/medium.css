@@ -1,0 +1,69 @@
+@media only screen and (min-width: 500px) {
+   /*----------- HEADER-------*/
+  /*----------- NAV MENU-------*/  
+  /*----------- MAIN -------*/
+  /*----------- BANNER SECTION -------*/
+  /*----------- WELCOME TEXT -------*/
+  #welcomeText {
+    color: orange;
+    line-height: 1.5rem;
+    font-style: italic;
+    padding: 5%;
+  }
+  
+  /*----------- TEMPLE DATA -------*/
+  .locations > h3 {
+    text-align: center;
+    padding: 1% 1% 1% 5%;
+  }
+  
+  #aLocation {
+    max-width: 130px;
+    position: relative;
+    margin-bottom: 15%;
+  }
+  
+  .locations {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .templesgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: 5%;
+  }
+  .cityTemple > img {
+    margin-top: -20%;
+    width: 100%;
+  }
+  
+  .cityinfo {
+    margin-top: -68%;
+    padding: 2%;
+    font-size: 12px;
+    max-width: 130px;
+  }
+  
+  /*----------- ACTIVITY DATA -------*/
+  .activities > h3 {
+    text-align: center;
+    padding: 1% 1% 1% 5%;
+  }
+  
+  .activitiesTemple {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 5%;
+  }
+  .activity > img {
+    width: 100%;
+    margin-bottom: -5%;
+  }
+  /*----------- FOOTER -------*/
+ 
+}
