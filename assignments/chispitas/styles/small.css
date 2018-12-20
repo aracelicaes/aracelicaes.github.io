@@ -161,13 +161,13 @@ main {
   margin-bottom: 0;
 }
 
-#aLocation {
+.aLocation {
   color: white;
   background-color: orange;
   padding: 2%;
   max-width: 130px;
   position: relative;
-  margin-bottom: -15%;
+  margin-bottom: -5%;
 }
 
 .locations {
@@ -250,3 +250,169 @@ footer {
   font-size: smaller;
   margin: 0;
 }
+
+/*-------- TEMPLES PAGE ------*/
+
+/*-- Temple Info Section -- */
+.templeLocations > h3 {
+  color: white;
+  background-color: rgba(255, 166, 0, 0.822);
+  font-size: 30px;
+  padding: 2%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.aLocationT {
+  color: white;
+  background-color: rgba(255, 166, 0, 0.904);
+  padding: 2%;
+  max-width: 130px;
+  position: relative;
+  margin-bottom: -15%;
+}
+
+.templeLocations {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+}
+
+.allTemples {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.cityTemple > img {
+  width: 96%;
+  margin: 2% 2% 0 2%;
+}
+
+.templeInfo {
+  margin: 0 2% 5% 2%;
+  color: white;
+  background-color: rgba(255, 166, 0, 0.767);
+  padding: 2%;
+  width: 92%;
+  font-size: 12px;
+  text-align: left;
+}
+
+/*-------- RESERVATIONS PAGE ------*/
+.reserveAll {
+  background-color: rgba(102, 0, 0, 0.849);
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+}
+
+.reserveAll > h3 {
+  color: white;
+  font-size: 20px;
+  padding: 2%;
+}
+
+.reservations {
+  margin: 0 0 5% 0;
+  color: rgb(49, 5, 5);
+  padding: 2%;
+}
+
+em {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.persInfo, .dateInfo, .addInfo {
+  color: black;
+  font-weight: bold;
+  background-color: rgba(255, 238, 0, 0.151);
+  margin-bottom: 5%;
+}
+
+legend {
+  font-size: 20px;
+  color: white;
+  background-color: rgba(102, 0, 0, 0.849);
+  padding: 2%;
+  margin-bottom: 5%;
+  max-width: 240px;
+}
+
+label {
+  color: black;
+  font-size: 18px;
+}
+
+#subbutton {
+  padding: 5%;
+  color: white;
+  background-color: orange;
+  font-size: 25px;
+  margin: 4% 22%;
+  font-weight: bold;
+  width: 50%;
+  border-radius: 8px;
+}
+
+.reservationsf {
+  margin: 15%;
+  color: rgb(0, 128, 0);
+  padding: 2%;
+}
+
+/*-------- SERVICES PAGE ------*/
+.tiServices {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+.tiServices > h3 {
+  color: white;
+  background-color: rgba(255, 166, 0, 0.822);
+  font-size: 30px;
+  padding: 2%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.servicesTitle {
+  color: white;
+  background-color:#80b8af;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.amenitiesIndex, .specialservicesIndex, .fulltimeservicesIndex, .receptionservicesIndex {
+  background-color: rgb(208, 236, 235);
+}
+
+ul.servicesList {
+  list-style-type: circle;
+  background-color: inherit;
+  padding: 2%;
+  line-height: 2em;
+}
+
+.servicesgoodGrid {
+  display: flex;
+  flex-direction: column;
+}
+
+.serveGrid > img {
+  width: 100%;
+}
+
+
+
+
+
+

@@ -70,10 +70,10 @@ main {
   padding: 1% 1% 1% 5%;
 }
 
-#aLocation {
+.aLocation {
   max-width: 180px;
   position: relative;
-  margin-bottom: 15%;
+  margin-bottom: -15%;
 }
 
 .locations {
@@ -132,6 +132,54 @@ main {
 .footer-bar {
   font-size: 20px;
 }
+
+/*-------- TEMPLES PAGE ------*/
+
+/*-- Temple Info Section -- */
+.templeLocations {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+}
+
+.allTemples {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.cityTemple > img {
+  width: 96%;
+  margin: 2% 2% 0 2%;
+}
+
+.templeInfo {
+  font-size: 16px;
+  margin: 4% 0 1% 0;
+  width: 100%;
+}
+
+.templegoodGrid {
+  display: grid;
+  grid-template-columns: auto  auto auto;
+  margin: 2%;
+}
+
+.brighamcityIndex, .columbuscityIndex, .oquirrhcityIndex, .twinfallscityIndex {
+  margin-bottom: 2%;
+  margin-top: 4%;
+}
+
+/*-------- RESERVATIONS PAGE ------*/
+.reserveForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5% 25%;
+}
+
+
+
 
 
 }

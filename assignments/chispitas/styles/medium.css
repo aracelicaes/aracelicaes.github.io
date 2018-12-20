@@ -17,10 +17,10 @@
     padding: 1% 1% 1% 5%;
   }
   
-  #aLocation {
+  .aLocation {
     max-width: 130px;
     position: relative;
-    margin-bottom: 15%;
+    margin-bottom: -25%;
   }
   
   .locations {
@@ -64,6 +64,36 @@
     width: 100%;
     margin-bottom: -5%;
   }
-  /*----------- FOOTER -------*/
+/*----------- FOOTER -------*/
+/*-------- TEMPLES PAGE ------*/
+
+/*-- Temple Info Section -- */
+.templeLocations > h3 {
+  padding: 1%;
+  text-align: center;
+}
+
+.templeLocations {
+  margin: 0;
+}
+
+.aLocationT {
+  margin-bottom: -15%;
+}
+
+.cityTemple > img {
+  width: 90%;
+  margin: 5% 5% 0 5%;
+}
+
+.templeInfo {
+  font-size: 16px;
+  width: 86%;
+  margin: 0 5% 5% 5%;
+}
+
+/*-------- RESERVATIONS PAGE ------*/
+
+
  
 }

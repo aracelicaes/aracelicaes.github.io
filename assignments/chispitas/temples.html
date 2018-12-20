@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="CIT 230 Site Term Project">
 <meta name="author" content="Araceli Camarillo">
-<title>Temple-Inn| Temples</title>
+<title>Temple-Inn|Temples</title>
 <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
@@ -33,112 +33,121 @@
     <ul id="mainMenu" class="hide">
             <li><a href="home.html">Home</a></li>
             <li><a class="active" href="temples.html">Temples</a></li>
-            <li><a href="">Reservations</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Contact </a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact </a></li>
     </ul>
 </nav>
 
 <main class="templesAll">
 <picture class="hbannerImage">
-    <!--large--> <source media="(min-width: 790px)" srcset="images/tib800.jpg">
-    <!--medium--> <source media="(max-width: 650px)" srcset="images/tib500.jpg">  
-    <!--small--> <source media="(max-width: 456px)" srcset="images/tib200.jpg">
-    <img src="images/tib800.jpg" alt="Temple Inn-Suites Home Banner">
+    <!--wide--> <source media="(min-width: 1100px)" srcset="images/chairbanner1200.jpg">
+    <!--large--> <source media="(min-width: 790px)" srcset="images/chairbanner800.jpg">
+    <!--medium--> <source media="(max-width: 650px)" srcset="images/chairbanner500.jpg">  
+    <!--small--> <source media="(max-width: 456px)" srcset="images/chairbanner200.jpg">
+    <img src="images/chairbanner500.jpg" alt="Temple Inn Temples Page Banner">
 </picture>
 
 <section class="templeLocations">
     <h3>Temples</h3>
-    <div class="templesgrid">
+    <div class="allTemples">
     <!-- Temples Data -->
     <div class="brighamcityIndex">
     <!-- Brigham City Temple Data -->
-        <h4 id="aLocation">Brigham City</h4>
-        <picture class="cityTemple">
-            <source media="(min-width: 500px)" srcset="images/brighamcitytemple500.jpg">  
-            <source media="(min-width: 456px)" srcset="images/brighamcitytemple200.jpg">
-            <img src="images/brighamcitytemple500.jpg" alt="Brigham City Temple">
-        </picture>
-        <div class="cityTemple">
-            <p>Address: <span id="bAddress">Address</span></p>
-            <p>Groundbreaking: <span id="bGroundbreaking">Groundbreaking </span></p>
-            <p>Dedicated: <span id="bDedicated">Dedicated</span></p>
-            <p>Current Weather: <span id="bWeather">Weather</span>&deg;</p>
-            <p>Services: <span id="bServices">Services</span></p>
-            <p>Telephone: <span id="bTelephone">Telephone</span></p>
-            <p>Email: <span id="bEmail">Email</span></p>
-            <p>Ordinance Schedule: <span id="bOrdinance">Ordinance Schedule</span></p>
-            <p>Session Schedule: <span id="bSession">Session Schedule</span></p>
-            <p>Temple Closure: <span id="bClosure">Temple Closure</span></p>
+        <h4 class="aLocationT">Brigham City</h4>
+        <div class="templegoodGrid">
+            <picture class="cityTemple">
+                <source media="(min-width: 500px)" srcset="images/brighamcitytemple500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/brighamcitytemple200.jpg">
+                <img src="images/brighamcitytemple500.jpg" alt="Brigham City Temple">
+            </picture>
+            <div class="templeInfo">
+                <p>Address: <span id="bAddress">Address</span></p>
+                <p>Groundbreaking: <span id="bGroundbreaking">Groundbreaking </span></p>
+                <p>Dedicated: <span id="bDedicated">Dedicated</span></p>
+                <p>Current Weather: <span id="bWeather">Weather</span>&deg;</p>
+                <p>Services: <span id="bServices">Services</span></p>
+                <p>Telephone: <span id="bTelephone">Telephone</span></p>
+                <p>Email: <span id="bEmail">Email</span></p>
+                <p>Ordinance Schedule: <span id="bOrdinance">Ordinance Schedule</span></p>
+                <p>Session Schedule: <span id="bSession">Session Schedule</span></p>
+                <p>Temple Closure: <span id="bClosure">Temple Closure</span></p>
+            </div>
         </div>
     </div>
     <!-- End Brigham City Temple Data -->
 
     <div class="columbuscityIndex">
     <!-- Columbus City Temple -->
-        <h4 id="aLocation">Columbus City</h4>
-        <picture class="cityTemple">
-            <source media="(min-width: 500px)" srcset="images/columbustemple500.jpg">  
-            <source media="(min-width: 456px)" srcset="images/columbustemple200.jpg">
-            <img src="images/columbustemple500.jpg" alt="Columbus City Temple">
-        </picture>
-        <div class="templeInfo">
-            <p>Address: <span id="cAddress">Address</span></p>
-            <p>Groundbreaking: <span id="cGroundbreaking">Groundbreaking </span></p>
-            <p>Dedicated: <span id="cDedicated">Dedicated</span></p>
-            <p>Current Weather: <span id="cWeather">Weather</span>&deg;</p>
-            <p>Services: <span id="cServices">Services</span></p>
-            <p>Telephone: <span id="cTelephone">Telephone</span></p>
-            <p>Email: <span id="cEmail">Email</span></p>
-            <p>Ordinance Schedule: <span id="cOrdinance">Ordinance Schedule</span></p>
-            <p>Session Schedule: <span id="cSession">Session Schedule</span></p>
-            <p>Temple Closure: <span id="cClosure">Temple Closure</span></p>
+        <h4 class="aLocationT">Columbus City</h4>
+        <div class="templegoodGrid">
+            <picture class="cityTemple">
+                <source media="(min-width: 500px)" srcset="images/columbustemple500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/columbustemple200.jpg">
+                <img src="images/columbustemple500.jpg" alt="Columbus City Temple">
+            </picture>
+            <div class="templeInfo">
+                <p>Address: <span id="cAddress">Address</span></p>
+                <p>Groundbreaking: <span id="cGroundbreaking">Groundbreaking </span></p>
+                <p>Dedicated: <span id="cDedicated">Dedicated</span></p>
+                <p>Current Weather: <span id="cWeather">Weather</span>&deg;</p>
+                <p>Services: <span id="cServices">Services</span></p>
+                <p>Telephone: <span id="cTelephone">Telephone</span></p>
+                <p>Email: <span id="cEmail">Email</span></p>
+                <p>Ordinance Schedule: <span id="cOrdinance">Ordinance Schedule</span></p>
+                <p>Session Schedule: <span id="cSession">Session Schedule</span></p>
+                <p>Temple Closure: <span id="cClosure">Temple Closure</span></p>
+            </div>
         </div>
     </div>
     <!-- End Columbus City Temple -->   
         
     <div class="oquirrhcityIndex">
     <!-- Oquirrh City Temple -->
-        <h4 id="aLocation">Oquirrh City</h4>
-        <picture class="cityTemple">
-            <source media="(min-width: 500px)" srcset="images/oquirrhtemple500.jpg">  
-            <source media="(min-width: 456px)" srcset="images/oquirrhtemple200.jpg">
-            <img src="images/oquirrhtemple500.jpg" alt="Oquirrh City Temple">
-        </picture>
-        <div class="templeInfo">
-            <p>Address: <span id="oAddress">Address</span></p>
-            <p>Groundbreaking: <span id="oGroundbreaking">Groundbreaking </span></p>
-            <p>Dedicated: <span id="oDedicated">Dedicated</span></p>
-            <p>Current Weather: <span id="oWeather">Weather</span>&deg;</p>
-            <p>Services: <span id="oServices">Services</span></p>
-            <p>Telephone: <span id="oTelephone">Telephone</span></p>
-            <p>Email: <span id="oEmail">Email</span></p>
-            <p>Ordinance Schedule: <span id="oOrdinance">Ordinance Schedule</span></p>
-            <p>Session Schedule: <span id="oSession">Session Schedule</span></p>
-            <p>Temple Closure: <span id="oClosure">Temple Closure</span></p>
+        <h4 class="aLocationT">Oquirrh City</h4>
+        <div class="templegoodGrid">
+            <picture class="cityTemple">
+                <source media="(min-width: 500px)" srcset="images/oquirrhtemple500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/oquirrhtemple200.jpg">
+                <img src="images/oquirrhtemple500.jpg" alt="Oquirrh City Temple">
+            </picture>
+            <div class="templeInfo">
+                <p>Address: <span id="oAddress">Address</span></p>
+                <p>Groundbreaking: <span id="oGroundbreaking">Groundbreaking </span></p>
+                <p>Dedicated: <span id="oDedicated">Dedicated</span></p>
+                <p>Current Weather: <span id="oWeather">Weather</span>&deg;</p>
+                <p>Services: <span id="oServices">Services</span></p>
+                <p>Telephone: <span id="oTelephone">Telephone</span></p>
+                <p>Email: <span id="oEmail">Email</span></p>
+                <p>Ordinance Schedule: <span id="oOrdinance">Ordinance Schedule</span></p>
+                <p>Session Schedule: <span id="oSession">Session Schedule</span></p>
+                <p>Temple Closure: <span id="oClosure">Temple Closure</span></p>
+            </div>
         </div>
     </div>
     <!-- End Oquirrh City Temple --> 
         
     <div class="twinfallscityIndex">
     <!-- Twin Falls City Temple -->
-        <h4 id="aLocation">Twin Falls City</h4>
-        <picture class="cityTemple">
-            <source media="(min-width: 500px)" srcset="images/twinfalls500.jpg">  
-            <source media="(min-width: 456px)" srcset="images/twinfallstemple200.jpg">
-            <img src="images/twinfalls500.jpg" alt="Twin Falls City Temple">
-        </picture>
-        <div class="templeInfo">
-            <p>Address: <span id="tAddress">Address</span></p>
-            <p>Groundbreaking: <span id="tGroundbreaking">Groundbreaking </span></p>
-            <p>Dedicated: <span id="tDedicated">Dedicated</span></p>
-            <p>Current Weather: <span id="tWeather">Weather</span>&deg;</p>
-            <p>Services: <span id="tServices">Services</span></p>
-            <p>Telephone: <span id="tTelephone">Telephone</span></p>
-            <p>Email: <span id="tEmail">Email</span></p>
-            <p>Ordinance Schedule: <span id="tOrdinance">Ordinance Schedule</span></p>
-            <p>Session Schedule: <span id="tSession">Session Schedule</span></p>
-            <p>Temple Closure: <span id="tClosure">Temple Closure</span></p>
+        <h4 class="aLocationT">Twin Falls City</h4>
+        <div class="templegoodGrid">
+            <picture class="cityTemple">
+                <source media="(min-width: 500px)" srcset="images/twinfallstemple500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/twinfallstemple200.jpg">
+                <img src="images/twinfallstemple500.jpg" alt="Twin Falls City Temple">
+            </picture>
+            <div class="templeInfo">
+                <p>Address: <span id="tAddress">Address</span></p>
+                <p>Groundbreaking: <span id="tGroundbreaking">Groundbreaking </span></p>
+                <p>Dedicated: <span id="tDedicated">Dedicated</span></p>
+                <p>Current Weather: <span id="tWeather">Weather</span>&deg;</p>
+                <p>Services: <span id="tServices">Services</span></p>
+                <p>Telephone: <span id="tTelephone">Telephone</span></p>
+                <p>Email: <span id="tEmail">Email</span></p>
+                <p>Ordinance Schedule: <span id="tOrdinance">Ordinance Schedule</span></p>
+                <p>Session Schedule: <span id="tSession">Session Schedule</span></p>
+                <p>Temple Closure: <span id="tClosure">Temple Closure</span></p>
+            </div>
         </div>
     </div>
     <!-- End Twin Falls City Temple --> 
