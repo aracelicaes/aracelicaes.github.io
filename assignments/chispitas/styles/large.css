@@ -179,6 +179,25 @@ main {
 }
 
 /*-------- SERVICES PAGE ------*/
+.allServices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2%;
+}
+.servicesgoodGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2%;
+  margin-bottom: 10%;
+}
+
+.serveGrid > img {
+ max-height: 244px; 
+}
+
+#titleGrid {
+  margin-bottom: -19%;
+}
 
 
 }

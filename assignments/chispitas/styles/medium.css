@@ -93,7 +93,22 @@
 }
 
 /*-------- RESERVATIONS PAGE ------*/
+@media only screen and (min-width: 650px) {
 
+  .servicesgoodGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #titleGrid {
+    margin-bottom: -22%;
+  }
+
+  .serveGrid > img {
+    max-height: 198px;
+  }
+  
+}
 
  
 }

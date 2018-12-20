@@ -407,13 +407,22 @@ ul.servicesList {
 
 .servicesgoodGrid {
   display: grid;
-  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 2px;
+  padding: 2%;
 }
 
 .serveGrid > img {
   width: 100%;
-  margin: 0;
-  padding: 0;
+}
+
+#titleGrid {
+  color: white;
+  background-color: rgba(255, 166, 0, 0.651);
+  padding: 2%;
+  max-width: 130px;
+  position: relative;
+  margin-bottom: -13%;
 }
 
 
