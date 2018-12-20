@@ -4,7 +4,7 @@ var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'text';
 request.send();
-request.onload = function () {
+request.onload = function() {
 
   var tWeatherResp = request.response;
   var tWeather = JSON.parse(tWeatherResp);

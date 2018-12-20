@@ -3,7 +3,7 @@ var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'text';
 request.send();
-request.onload = function () {
+request.onload = function() {
 
   //brigham City
   var brighamWeatherResp = request.response;
