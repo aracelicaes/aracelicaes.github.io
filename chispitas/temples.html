@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CIT 230 Site Term Project">
+<meta name="author" content="Araceli Camarillo">
+<title>Temple-Inn|Temples</title>
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/small.css" rel="stylesheet">
+<link href="styles/medium.css" rel="stylesheet">
+<link href="styles/large.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+<picture class="tilogo">
+<source media="(min-width: 500px)" srcset="images/templelogo130.png">  
+<source media="(max-width: 456px)" srcset="images/templelogo100.png">
+<img src="images/templelogo130.png" alt="Temple-Inns Logo">
+</picture>
+<div class="headertext">
+<h1>Temple Inn-Suites</h1>
+<div id="timotto">"Comfort & Spiritual Growth"</div>
+</div>
+</header>
+
+<nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="mainMenu" class="hide">
+            <li><a href="home.html">Home</a></li>
+            <li><a class="active" href="temples.html">Temples</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact </a></li>
+    </ul>
+</nav>
+
+<main class="templesAll">
+<picture class="hbannerImage">
+    <!--wide--> <source media="(min-width: 1100px)" srcset="images/chairbanner1200.jpg">
+    <!--large--> <source media="(min-width: 790px)" srcset="images/chairbanner800.jpg">
+    <!--medium--> <source media="(max-width: 650px)" srcset="images/chairbanner500.jpg">  
+    <!--small--> <source media="(max-width: 456px)" srcset="images/chairbanner200.jpg">
+    <img src="images/chairbanner500.jpg" alt="Temple Inn Temples Page Banner">
+</picture>
+
+<section class="templeLocations">
+    <h3>Temples</h3>
+    <div class="allTemples">
+    <!-- Temples Data -->
+    <div class="brighamcityIndex">
+    <!-- Brigham City Temple Data -->
+        <h4 class="aLocationT">Brigham City</h4>
+        <div class="templegoodGrid">
+            <picture class="cityTemple">
+                <source media="(min-width: 500px)" srcset="images/brighamcitytemple500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/brighamcitytemple200.jpg">
+                <img src="images/brighamcitytemple500.jpg" alt="Brigham City Temple">
+            </picture>
+            <div class="templeInfo">
+                <p>Address: <span id="bAddress">Address</span></p>
+                <p>Groundbreaking: <span id="bGroundbreaking">Groundbreaking </span></p>
+                <p>Dedicated: <span id="bDedicated">Dedicated</span></p>
+                <p>Current Weather: <span id="bWeather">Weather</span>&deg;</p>
+                <p>Services: <span id="bServices">Services</span></p>
+                <p>Telephone: <span id="bTelephone">Telephone</span></p>
+                <p>Email: <span id="bEmail">Email</span></p>
+                <p>Ordinance Schedule: <span id="bOrdinance">Ordinance Schedule</span></p>
+                <p>Session Schedule: <span id="bSession">Session Schedule</span></p>
+                <p>Temple Closure: <span id="bClosure">Temple Closure</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Brigham City Temple Data -->
+
+    <div class="columbuscityIndex">
+    <!-- Columbus City Temple -->
+        <h4 class="aLocationT">Columbus City</h4>
+        <div class="templegoodGrid">
+            <picture class="cityTemple">
+                <source media="(min-width: 500px)" srcset="images/columbustemple500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/columbustemple200.jpg">
+                <img src="images/columbustemple500.jpg" alt="Columbus City Temple">
+            </picture>
+            <div class="templeInfo">
+                <p>Address: <span id="cAddress">Address</span></p>
+                <p>Groundbreaking: <span id="cGroundbreaking">Groundbreaking </span></p>
+                <p>Dedicated: <span id="cDedicated">Dedicated</span></p>
+                <p>Current Weather: <span id="cWeather">Weather</span>&deg;</p>
+                <p>Services: <span id="cServices">Services</span></p>
+                <p>Telephone: <span id="cTelephone">Telephone</span></p>
+                <p>Email: <span id="cEmail">Email</span></p>
+                <p>Ordinance Schedule: <span id="cOrdinance">Ordinance Schedule</span></p>
+                <p>Session Schedule: <span id="cSession">Session Schedule</span></p>
+                <p>Temple Closure: <span id="cClosure">Temple Closure</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Columbus City Temple -->   
+        
+    <div class="oquirrhcityIndex">
+    <!-- Oquirrh City Temple -->
+        <h4 class="aLocationT">Oquirrh City</h4>
+        <div class="templegoodGrid">
+            <picture class="cityTemple">
+                <source media="(min-width: 500px)" srcset="images/oquirrhtemple500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/oquirrhtemple200.jpg">
+                <img src="images/oquirrhtemple500.jpg" alt="Oquirrh City Temple">
+            </picture>
+            <div class="templeInfo">
+                <p>Address: <span id="oAddress">Address</span></p>
+                <p>Groundbreaking: <span id="oGroundbreaking">Groundbreaking </span></p>
+                <p>Dedicated: <span id="oDedicated">Dedicated</span></p>
+                <p>Current Weather: <span id="oWeather">Weather</span>&deg;</p>
+                <p>Services: <span id="oServices">Services</span></p>
+                <p>Telephone: <span id="oTelephone">Telephone</span></p>
+                <p>Email: <span id="oEmail">Email</span></p>
+                <p>Ordinance Schedule: <span id="oOrdinance">Ordinance Schedule</span></p>
+                <p>Session Schedule: <span id="oSession">Session Schedule</span></p>
+                <p>Temple Closure: <span id="oClosure">Temple Closure</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Oquirrh City Temple --> 
+        
+    <div class="twinfallscityIndex">
+    <!-- Twin Falls City Temple -->
+        <h4 class="aLocationT">Twin Falls City</h4>
+        <div class="templegoodGrid">
+            <picture class="cityTemple">
+                <source media="(min-width: 500px)" srcset="images/twinfallstemple500.jpg">  
+                <source media="(min-width: 456px)" srcset="images/twinfallstemple200.jpg">
+                <img src="images/twinfallstemple500.jpg" alt="Twin Falls City Temple">
+            </picture>
+            <div class="templeInfo">
+                <p>Address: <span id="tAddress">Address</span></p>
+                <p>Groundbreaking: <span id="tGroundbreaking">Groundbreaking </span></p>
+                <p>Dedicated: <span id="tDedicated">Dedicated</span></p>
+                <p>Current Weather: <span id="tWeather">Weather</span>&deg;</p>
+                <p>Services: <span id="tServices">Services</span></p>
+                <p>Telephone: <span id="tTelephone">Telephone</span></p>
+                <p>Email: <span id="tEmail">Email</span></p>
+                <p>Ordinance Schedule: <span id="tOrdinance">Ordinance Schedule</span></p>
+                <p>Session Schedule: <span id="tSession">Session Schedule</span></p>
+                <p>Temple Closure: <span id="tClosure">Temple Closure</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Twin Falls City Temple --> 
+    </div> 
+</section>
+</main>
+  
+  <footer>
+    <aside class= "content">
+      <div class= "contact">
+        <h3>Temple Inn-Suites</h3>
+        <img src="images/phone24.png" alt="Temple-Inn Phone">(999)123.4567<br>
+        <img src="images/mail24.png" alt="Temple-Inn email">contactus@templeinnsuites.com<br>
+        <img src="images/location24.png" alt="Temple-Inn Location">4810 Montgomery Ln #500, Bethesda, MD 20814
+        <br>
+        <br>
+        Weather Data Provided By <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a>
+        <br>
+        <br>
+        Temple Images Provided By <a href="https://lds.org/" target="_blank">The Church of Jesus Christ of Latter-Day-Saints</a>
+        <br>
+        <br>
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook24.png" alt="Temple-Inn Facebook"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="images/instagram24.png" alt="Temple-Inn IG"></a>
+        <a href="https://whatsapp.com" target="_blank"><img src="images/whatsapp24.png" alt="Temple-Inn Whatsapp"></a>
+    </div> 
+    <div id="templeinnMap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4090324366957!2d-77.09900308531383!3d38.9831601795575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814%2C+EE.+UU.!5e0!3m2!1ses-419!2smx!4v1545120796938" allowfullscreen></iframe>
+    </div>   
+    </aside>
+    
+    
+    <p class="footer-bar">&copy;2018 All Rights Reserved | Temple-Inn Suites | 
+      <span id="currentdate">Current Date Placeholder</span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+
+</body>
+</html>
