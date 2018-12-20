@@ -365,12 +365,12 @@ label {
 }
 
 /*-------- SERVICES PAGE ------*/
-.tiServices {
+/*.tiServices {
   display: flex;
   flex-direction: column;
   margin-bottom: 2%;
   padding: 2%;
-}
+}*/
 
 .tiServices > h3 {
   color: white;
@@ -393,22 +393,27 @@ label {
 
 .amenitiesIndex, .specialservicesIndex, .fulltimeservicesIndex, .receptionservicesIndex {
   background-color: rgb(208, 236, 235);
+  margin: 2%;
 }
 
 ul.servicesList {
   list-style-type: circle;
   background-color: inherit;
-  padding: 2%;
+  padding: 4%;
   line-height: 2em;
+  font-size: 12px;
+  text-align: left;
 }
 
 .servicesgoodGrid {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-auto-columns: 1fr;
 }
 
 .serveGrid > img {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 
