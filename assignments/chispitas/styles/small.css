@@ -367,13 +367,6 @@ label {
 }
 
 /*-------- SERVICES PAGE ------*/
-/*.tiServices {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2%;
-  padding: 2%;
-}*/
-
 .tiServices > h3 {
   color: white;
   background-color: rgba(255, 166, 0, 0.822);
