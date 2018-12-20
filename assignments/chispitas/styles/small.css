@@ -205,6 +205,7 @@ main {
 .activities {
   display: flex;
   flex-direction: column;
+  padding: 2%;
 }
 
 .activity > img {
@@ -214,9 +215,9 @@ main {
 
 .activityInfo {
   background-color: rgba(255, 166, 0, 0.719);
-  margin-top: 0;
-  margin-bottom: 0;
   padding: 2%;
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 
 .activityInfo a {
@@ -287,6 +288,7 @@ footer {
 
 .cityTemple > img {
   width: 96%;
+  max-height: 430px; 
   margin: 2% 2% 0 2%;
 }
 
@@ -333,7 +335,7 @@ em {
   margin-bottom: 5%;
 }
 
-legend {
+#pi {
   font-size: 20px;
   color: white;
   background-color: rgba(102, 0, 0, 0.849);
@@ -416,13 +418,71 @@ ul.servicesList {
   width: 100%;
 }
 
+/*-------- CONTACT US PAGE ------*/
 #titleGrid {
   color: white;
   background-color: rgba(255, 166, 0, 0.651);
   padding: 2%;
-  max-width: 130px;
+  max-width: 200px;
   position: relative;
   margin-bottom: -13%;
+}
+
+.contactColumn > h3 {
+  background-color: orange;
+  color: white;
+  padding: 2%;
+  text-align: center;
+
+}
+
+.addressData {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2%;
+  margin: 2%;
+  width: 95%;
+  background-color: rgba(113, 212, 196, 0.486);
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.tidatagrid1, .tidatagrid2, .tidatagrid3 {
+  color: black;
+  padding: 3%;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(113, 212, 196, 0.486);
+  margin: 2%;
+  margin-bottom: 4%;
+  padding: 2%;
+  line-height: 1.5em;
+}
+
+.themapster {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2%;
+  margin-bottom: 4%;
+  background-color: rgba(113, 212, 196, 0.486);
+  padding: 5%;
+}
+
+#cousfo {
+  background-color: #80b8af;
+  color: white;
+  padding: 4%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contactusForm {
+  margin: 2%;
 }
 
 

@@ -39,6 +39,13 @@
   .cityTemple > img {
     margin-top: -20%;
     width: 100%;
+    max-height: 510px; 
+  }
+
+  @media only screen and (min-width: 650px){
+    .cityTemple > img {
+      max-height: 600px; 
+    }
   }
   
   .cityinfo {
@@ -92,7 +99,7 @@
   margin: 0 5% 5% 5%;
 }
 
-/*-------- RESERVATIONS PAGE ------*/
+/*-------- SERVICES PAGE ------*/
 @media only screen and (min-width: 650px) {
 
   .servicesgoodGrid {
@@ -101,7 +108,7 @@
   }
 
   #titleGrid {
-    margin-bottom: -22%;
+    margin-bottom: -17%;
   }
 
   .serveGrid > img {

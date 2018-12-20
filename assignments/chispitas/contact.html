@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CIT 230 Site Term Project">
+<meta name="author" content="Araceli Camarillo">
+<title>Temple-Inn|Contact</title>
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/small.css" rel="stylesheet">
+<link href="styles/medium.css" rel="stylesheet">
+<link href="styles/large.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+<picture class="tilogo">
+<source media="(min-width: 500px)" srcset="images/templelogo130.png">  
+<source media="(max-width: 456px)" srcset="images/templelogo100.png">
+<img src="images/templelogo130.png" alt="Temple-Inns Logo">
+</picture>
+<div class="headertext">
+<h1>Temple Inn-Suites</h1>
+<div id="timotto">"Comfort & Spiritual Growth"</div>
+</div>
+</header>
+
+<nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul id="mainMenu" class="hide">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="temples.html">Temples</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="active" href="contact.html">Contact </a></li>
+    </ul>
+</nav>
+
+<main class="templesAll">
+<picture class="hbannerImage">
+    <!--wide--> <source media="(min-width: 1100px)" srcset="images/contactbanner1200.jpg">
+    <!--large--> <source media="(min-width: 790px)" srcset="images/contactbanner800.jpg">
+    <!--medium--> <source media="(max-width: 650px)" srcset="images/contactbanner500.jpg">  
+    <!--small--> <source media="(max-width: 456px)" srcset="images/contactbanner200.jpg">
+    <img src="images/contactbanner500.jpg" alt="Temple Inn Contact Page Banner">
+</picture>
+
+<section class="contactColumn">
+<h3>Contact Us</h3>
+    <div class="templeinnAddress">
+        <div class="addressData">
+            <div class="tidatagrid1">
+                <img src="images/tel48.png" alt="Temple-Inn tel">
+                <div>
+                    <h5>(999)123.4567</h5>
+                </div>
+            </div>
+    
+            <div class="tidatagrid2">
+                <img src="images/email48.png" alt="Temple-Inn mail">
+                <div>
+                    <h5>contactus@templeinnsuites.com</h5>
+                </div>
+            </div>
+    
+            <div class="tidatagrid3">
+                <img src="images/locate48.png" alt="Temple-Inn locate">
+                <div>
+                    <h5>4810 Montgomery Ln #500, Bethesda, MD 20814</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="socials">
+        <h5>You can also visit our Social Media Pages</h5>
+        <div>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/face48.png" alt="Temple-Inn Face"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/insta48.png" alt="Temple-Inn Insta"></a>
+            <a href="https://whatsapp.com" target="_blank"><img src="images/whats48.png" alt="Temple-Inn Whats"></a>
+        </div>      
+        </div>
+
+        <div class="themapster">
+            <h4>Here's Our Map Location</h4>    
+        </div> 
+        <div id="tiMap">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4090324366957!2d-77.09900308531383!3d38.9831601795575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814%2C+EE.+UU.!5e0!3m2!1ses-419!2smx!4v1545120796938" allowfullscreen></iframe>
+        </div>        
+</section>    
+
+<!-- Contact Us Form -->
+<div class="reservations">
+        <p>We are always happy to hear from you. If you have any questions or comments please
+            fill out the form below.
+        </p>
+        <p>All fields marked with an <em>*</em> are required</p>
+    </div>
+
+    <div class="contactusForm">
+    <form action="contactconfirmation.html" method="get" target="_self">
+        <fieldset class="cpersInfo">
+            <legend id="cousfo">Contact Us:</legend>
+
+            <label>
+                <span class="must"><em>*</em>Full Name:</span><br>
+                <input type="text" name="fname" placeholder="ie. Jane Doe" pattern="[a-zA-Z]{.5}" required="" id="fullname"></label><br>
+
+            <label>
+                <span class="must">
+                    <em>*</em>Email Address:</span><br>
+                <input type="text" name="email" placeholder="ie. myemail@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                    required="" id="eaddress"></label><br>
+            <label>
+                <span class="must">
+                    <em>*</em>Phone Number</span><br>
+                <input type="tel" name="phone" placeholder="###-###-####" pattern="[0-9]{10}" required="" id="telephone">
+            </label><br>
+
+            <label class="must"><em>*</em>Comments:</label><br>
+            <textarea name="addinfo" placeholder="Please Insert Additional Info/Comments Here..." required=""></textarea>
+
+        </fieldset>
+
+        <div>
+            <input type="submit" value="Submit" id="subbutton">
+        </div>
+    </form>
+    </div>
+</main>
+  
+  <footer>
+    <aside class= "content">
+      <div class= "contact">
+        <h3>Temple Inn-Suites</h3>
+        <img src="images/phone24.png" alt="Temple-Inn Phone">(999)123.4567<br>
+        <img src="images/mail24.png" alt="Temple-Inn email">contactus@templeinnsuites.com<br>
+        <img src="images/location24.png" alt="Temple-Inn Location">4810 Montgomery Ln #500, Bethesda, MD 20814
+        <br>
+        <br>
+        Weather Data Provided By <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a>
+        <br>
+        <br>
+        Temple Images Provided By <a href="https://lds.org/" target="_blank">The Church of Jesus Christ of Latter-Day-Saints</a>
+        <br>
+        <br>
+        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook24.png" alt="Temple-Inn Facebook"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="images/instagram24.png" alt="Temple-Inn IG"></a>
+        <a href="https://whatsapp.com" target="_blank"><img src="images/whatsapp24.png" alt="Temple-Inn Whatsapp"></a>
+    </div> 
+    <div id="templeinnMap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4090324366957!2d-77.09900308531383!3d38.9831601795575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814%2C+EE.+UU.!5e0!3m2!1ses-419!2smx!4v1545120796938" allowfullscreen></iframe>
+    </div>   
+    </aside>
+    
+    
+    <p class="footer-bar">&copy;2018 All Rights Reserved | Temple-Inn Suites | 
+      <span id="currentdate">Current Date Placeholder</span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/quantity.js"></script>
+
+</body>
+</html>

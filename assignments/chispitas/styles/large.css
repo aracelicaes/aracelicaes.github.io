@@ -113,6 +113,11 @@ main {
   width: 90%;
   margin: 5%;
 }
+
+.activityInfo {
+  font-size: 14px;
+}
+
 .activity > img {
   width: 100%;
   margin-bottom: -5%;
@@ -150,6 +155,7 @@ main {
 
 .cityTemple > img {
   width: 96%;
+  max-height: 74%;
   margin: 2% 2% 0 2%;
 }
 
@@ -157,6 +163,7 @@ main {
   font-size: 16px;
   margin: 4% 0 1% 0;
   width: 100%;
+  max-height: 74%;
 }
 
 .templegoodGrid {
@@ -166,7 +173,7 @@ main {
 }
 
 .brighamcityIndex, .columbuscityIndex, .oquirrhcityIndex, .twinfallscityIndex {
-  margin-bottom: 2%;
+  margin-bottom: -15%;
   margin-top: 4%;
 }
 
@@ -196,7 +203,31 @@ main {
 }
 
 #titleGrid {
-  margin-bottom: -19%;
+  margin-bottom: -15%;
+}
+
+@media only screen and (min-width: 1000px) {
+  #titleGrid {
+    margin-bottom: -13%;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  #titleGrid {
+    margin-bottom: -11%;
+  }
+}
+
+/*------CONTACT US PAGE ----*/
+
+.addressData {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#tiMap {
+  width: 96%;
+  margin: 2%;
 }
 
 
