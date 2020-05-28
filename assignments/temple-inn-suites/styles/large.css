@@ -1,8 +1,14 @@
-@media only screen and (min-width: 800px) {    
+@media only screen and (min-width: 800px) {
+  
+body {
+  max-width: 1700px;
+  min-width: 800px;
+  margin: auto;
+}
  
 /*----------- HEADER-------*/
 .tilogo {
-  width: 10%;
+  width: 125px;
 }
 
 .headertext{
@@ -18,6 +24,10 @@
 }
 
 /*----------- NAV MENU-------*/
+nav {
+  max-width: 1700px;
+  margin: auto;
+}
 
 nav button {
 display: none;
@@ -26,14 +36,16 @@ display: none;
 .hide {
   display: flex;
   flex-direction: row;
-  margin: 0;
-  justify-content: space-around;
-  padding: 1% 0 1% 0;
   font-size: 22px;
+}
+
+li {
+  margin-right: 30px;
 }
 
 li a {
   display: block;
+  padding: 10px 33px;
 }
 
 /*----------- MAIN -------*/

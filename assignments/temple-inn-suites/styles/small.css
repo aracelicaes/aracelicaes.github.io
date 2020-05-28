@@ -7,6 +7,9 @@ body {
   color: black;
   width: 100%;
   background-color: white;
+  min-width: 250px;
+  max-width: 500px;
+  margin: auto;
 }
 
 /*----------- HEADER-------*/
@@ -19,36 +22,37 @@ header {
   margin: 0;
 }
 
-    .tilogo {
-      width: 30%;
-      border: 3pt solid #fff8ea;
-      margin-left: 0;
-    }
+.tilogo {
+  min-width: 100px;
+  width: 125px;
+  border: 3pt solid #fff8ea;
+  margin-left: -3px;
+}
 
-    .tilogo > img {
-      width: 80%;
-      margin-left: 9%;
-      margin-top: 5%;
-      margin-bottom: 5%;
-    }
+.tilogo > img {
+  width: 80%;
+  margin-left: 9%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
-    .headertext{
-      width: 60%;
-    }
+.headertext{
+  width: 60%;
+}
 
-    .headertext > h1 {
-      margin-left: 10px;
-      margin-top: 10px;
-      margin-bottom: 2px;
-      color: white;
-      font-size: 23px;
-    }
+.headertext > h1 {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  color: white;
+  font-size: 23px;
+}
 
-    #timotto {
-      font-size: 14px;
-      font-style: italic;
-      margin-left: 10px;
-    }
+#timotto {
+  font-size: 14px;
+  font-style: italic;
+  margin-left: 10px;
+}
 
 /*----------- NAV MENU-------*/
 
@@ -85,17 +89,22 @@ li  a {
   display: block;
   max-width: 100%;
   margin: 2% 0 2% 0;
-  padding: 2% 0 2% 0;
   color: white;
+  text-decoration: none;
 }
 
 
-li a.active {
-  background-color: rgba(255, 166, 0, 0.932);
-  color: white;
+#active {
+  background-color: rgba(255, 255, 255, 0.527);
+  color: #80b8af;
 }
 
-li a:hover:not(.active) {
+#active:hover {
+  color: none;
+  background-color: none;
+}
+
+li:hover {
   color: black;
   background-color: rgba(247, 203, 8, 0.63);
 }
@@ -112,7 +121,7 @@ main {
     display: block;
     align-items: center;
     max-width: 100%;
-  }
+}
 
 /*----------- BANNER SECTION -------*/
   .hbannerImage {
@@ -477,9 +486,3 @@ ul.servicesList {
 .contactusForm {
   margin: 2%;
 }
-
-
-
-
-
-

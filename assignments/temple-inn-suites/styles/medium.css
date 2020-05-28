@@ -4,11 +4,21 @@
   /*----------- MAIN -------*/
   /*----------- BANNER SECTION -------*/
   /*----------- WELCOME TEXT -------*/
+  body {
+    max-width: 800px;
+    min-width: 500px;
+    margin: auto;
+  }
+
   #welcomeText {
     color: orange;
     line-height: 1.5rem;
     font-style: italic;
     padding: 5%;
+  }
+
+  .tilogo {
+    width: 125px;
   }
   
   /*----------- TEMPLE DATA -------*/
