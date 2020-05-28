@@ -2,6 +2,7 @@
 # aracelicaes.github.io
 My CIT 230 Assignments Page for Brigham Young University-Idaho
 <div align= "center"><img src= "images/cit230assignments.png"></div>
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 - [aracelicaes.github.io](#aracelicaesgithubio)
@@ -16,6 +17,7 @@ My CIT 230 Assignments Page for Brigham Young University-Idaho
   - [About this Project](#about-this-project-1)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project:
