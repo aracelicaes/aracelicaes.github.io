@@ -1,6 +1,12 @@
 @media only screen and (min-width: 500px) {
    
- /*----------GALLERY---------*/
+  body {
+  margin: auto;
+  min-width: 500px;
+  max-width: 800px;
+  }
+ 
+  /*----------GALLERY---------*/
  .weatherGallery {
     display: grid;
     grid-template-columns: 45% 45%;

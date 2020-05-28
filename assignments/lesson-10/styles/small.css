@@ -5,8 +5,10 @@ body {
   font-size: 16px;
   font-family: 'Roboto Condensed', sans-serif;
   color: black;
-  width: 100%;
   background-color: whitesmoke;
+  margin: auto;
+  min-width: 300px;
+  max-width: 500px;
 }
 
 /*----------- HEADER-------*/
@@ -23,41 +25,36 @@ header {
   align-items: center;
 }
 
-    .logo {
-      width: 25%;
-    }
-
-    .headertext{
-      width: 67%;
-    }
-
-    .headertext > h1 {
-      margin: 0;
-      padding-bottom: 10px;
-      letter-spacing: 3px;
-    }
-
-    #motto {
-      font-size: 12px;
-    }
-
-
-  .currentConditions {
-    display: none;
+  .logo {
+    width: 25%;
   }
+
+  .headertext{
+    width: 67%;
+  }
+
+  .headertext > h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+  }
+
+  #motto {
+    font-size: 12px;
+  }
+
+
+.currentConditions {
+  display: none;
+}
 
 /*----------- NAV MENU-------*/
 
 nav {
   background: #1e5799;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #1e5799 16%, #1e5799 16%, #1e5799 22%, #7db9e8 75%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #1e5799 16%, #1e5799 16%, #1e5799 22%, #7db9e8 75%);
-  /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #1e5799 16%, #1e5799 16%, #1e5799 22%, #7db9e8 75%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  font-size: 1rem;
+  font-size: 14pt;
   font-family: 'Fjalla One', sans-serif;
 }
 
@@ -101,13 +98,7 @@ main {
     background-color: whitesmoke;
     display: block;
     align-items: center;
-  }
-
-main, footer {
-  margin: 2%;
 }
-
-
 
 /*----------- BANNER SECTION -------*/
   .banner {
@@ -221,7 +212,6 @@ main, footer {
     color: whitesmoke;
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
     background: rgb(128,83,252); /* Old browsers */
     background: -moz-linear-gradient(top, rgba(128,83,252,1) 0%, rgba(86,134,211,1) 31%, rgba(120,204,237,1) 93%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, rgba(128,83,252,1) 0%,rgba(86,134,211,1) 31%,rgba(120,204,237,1) 93%); /* Chrome10-25,Safari5.1-6 */
@@ -318,7 +308,6 @@ main > h2 {
 
 .storyimg > img, .city > img {
   width: 90%;
-  padding: 5%;
 }
 
 /*--------STORM CENTER-------------*/

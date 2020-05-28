@@ -1,5 +1,11 @@
 @media only screen and (min-width: 800px) {    
- 
+
+body {
+  margin: auto;
+  min-width: 800px;
+  max-width: 1600px;
+}
+
 /*----------- HEADER-------*/
 .headertext {
   width: 40%;
@@ -43,7 +49,7 @@ nav ul.hide {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 5px;
+  padding: 10px;
 }
 
 /*----------- MAIN -------*/
@@ -146,7 +152,8 @@ nav ul.hide {
   .storydata {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
     box-shadow: 2px 2px 25px darkslateblue;
   }
   .storydata h3 {
@@ -164,11 +171,11 @@ nav ul.hide {
     display: flex;
     flex-direction: column;
     margin-left: 10%;
-    width: 50%;
+    width: 40%;
   }
 
   .storyimg img {
-    width: 90%;
+    width: 100%;
   }
 
   .towndata {
