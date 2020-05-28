@@ -41,7 +41,7 @@ This is page was built to display the different projects developed during my CIT
 * API from [OpenWeatherMap](https://openweathermap.org/)
 
 ## About this Project
-The requirements of this project were to build the design and our content of the Site using HTML and CSS. Javascript was used to integrate the AIP from OpenWeatherMap. It was also used to facilitate other features such as the hamburguer menu on the small/mobile view of the page.<br>
+The requirements of this project were to build the design and our content of the Site using HTML and CSS. Javascript was used to integrate the API from OpenWeatherMap. It was also used to facilitate other features such as the hamburguer menu on the small/mobile view of the page.<br>
 CSS Grids, Flexbox were used for the display.
 
 # Temple Inn Suites
